@@ -17,6 +17,7 @@ declare const MappedComponentPropertiesMixin_base: import("vue-class-component/l
 export declare class MappedComponentPropertiesMixin extends MappedComponentPropertiesMixin_base {
     isInEditor: boolean;
     cqPath: string;
+    aemNoDecoration: boolean;
 }
 export declare class ContainerStateMixin extends Vue {
     componentMapping?: ComponentMapping;

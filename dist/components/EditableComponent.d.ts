@@ -25,6 +25,7 @@ export declare class EditableComponentProperties extends Vue {
     cqForceReload?: boolean;
     isInEditor: boolean;
     cqPath: string;
+    aemNoDecoration: boolean;
 }
 declare const EditableComponent_base: import("vue-class-component/lib/declarations").VueClass<EditableComponentProperties>;
 /**

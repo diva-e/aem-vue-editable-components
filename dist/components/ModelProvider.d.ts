@@ -30,6 +30,7 @@ declare const ModelProvider_base: import("vue-class-component/lib/declarations")
  */
 export declare class ModelProvider extends ModelProvider_base {
     isInEditor?: boolean;
+    aemNoDecoration?: boolean;
     propsToState(props: any): any;
     state: Record<string, any>;
     get childProps(): any;
