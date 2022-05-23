@@ -92,6 +92,27 @@ export class ModelProvider extends Mixins(ModelProviderTypeMixin) {
   }
 
   /**
+   * Update component state/props with given model.
+   * @param data Model to update component with
+   * @returns Whether the state was updated
+   */
+  updateState (data: Model | undefined): boolean {
+    const { injectPropsOnInit } = this.$props
+    if (data && Object.keys(data).length > 0) {
+      this.childProps = Utils.modelToProps(data)
+      // Fire event once component model has been fetched and rendered to enable editing on AEM
+      if (injectPropsOnInit && Utils.isInEditor()) {
+        PathUtils.dispatchGlobalCustomEvent(
+            Constants.ASYNC_CONTENT_LOADED_EVENT,
+            {}
+        )
+      }
+      return true
+    }
+    return false
+  }
+
+  /**
    * Update model based on given resource path.
    * @param cqPath resource path
    */
@@ -106,25 +127,17 @@ export class ModelProvider extends Mixins(ModelProviderTypeMixin) {
       return
     }
 
-    ModelManager.getData({ path, forceReload: this.cqForceReload })
-        .then((data: Model) => {
-          if (data && Object.keys(data).length > 0) {
-            this.childProps = Utils.modelToProps(data)
-            // Fire event once component model has been fetched and rendered to enable editing on AEM
-            if (injectPropsOnInit && Utils.isInEditor()) {
-              PathUtils.dispatchGlobalCustomEvent(
-                  Constants.ASYNC_CONTENT_LOADED_EVENT,
-                  {}
-              )
-            }
-          }
-        })
-        .catch(error => {
-          console.log(error)
-        })
+    // Try to update state from ModelStore synchronously so that the model is immediately available for SSR
+    if (!this.updateState(ModelManager.modelStore.getData(path))) {
+      ModelManager.getData({ path, forceReload: this.cqForceReload })
+          .then((data: Model) => this.updateState(data))
+          .catch(error => {
+            console.log(error)
+          })
+    }
   }
 
-  mounted () {
+  created () {
     const { pagePath, itemPath, injectPropsOnInit } = this.$props
     let { cqPath } = this.$props
     this.childProps = Utils.modelToProps(this.$props)
