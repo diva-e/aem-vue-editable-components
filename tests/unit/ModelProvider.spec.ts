@@ -53,11 +53,17 @@ describe('ModelProvider ->', () => {
     }
 
     let addListenerSpy: jest.SpyInstance;
-    let getDataSpy: jest.SpyInstance;
+    let getStoreDataSpy: jest.SpyInstance;
+    let getManagerDataSpy: jest.SpyInstance;
 
     beforeEach(() => {
+        ModelManager.initializeAsync({
+            model: TEST_COMPONENT_MODEL,
+            path: TEST_PAGE_PATH,
+        })
         addListenerSpy = jest.spyOn(ModelManager, 'addListener').mockImplementation();
-        getDataSpy = jest.spyOn(ModelManager, 'getData').mockResolvedValue(TEST_COMPONENT_MODEL);
+        getStoreDataSpy = jest.spyOn(ModelManager.modelStore, 'getData').mockReturnValue(TEST_COMPONENT_MODEL);
+        getManagerDataSpy = jest.spyOn(ModelManager, 'getData').mockResolvedValue(TEST_COMPONENT_MODEL);
 
         rootNode = document.createElement('div');
         rootNode.className = ROOT_NODE_CLASS_NAME;
@@ -112,12 +118,10 @@ describe('ModelProvider ->', () => {
 
     describe('Get data ->', () => {
         beforeEach(() => {
-            getDataSpy.mockReset();
             addListenerSpy.mockReset();
         });
 
         it('should subscribe on the data with undefined parameters', () => {
-            getDataSpy.mockResolvedValue({});
             const vm = mount(ModelProvider, {
                 attachTo: rootNode,
                 propsData: {
@@ -130,7 +134,6 @@ describe('ModelProvider ->', () => {
         });
 
         it('should subscribe on the data with the provided attributes', () => {
-            getDataSpy.mockResolvedValue({});
             const vm = mount(ModelProvider, {
                 attachTo: rootNode,
                 propsData: {
@@ -192,7 +195,7 @@ describe('ModelProvider ->', () => {
             }
         });
 
-        expect(getDataSpy).toHaveBeenCalledWith({ path: TEST_PAGE_PATH, forceReload: false });
+        expect(getStoreDataSpy).toHaveBeenCalledWith(TEST_PAGE_PATH);
 
         const childNode = vm.find('#' + INNER_COMPONENT_ID);
 
@@ -211,7 +214,7 @@ describe('ModelProvider ->', () => {
         });
 
 
-        expect(getDataSpy).toHaveBeenCalledWith({ path: TEST_PAGE_PATH, forceReload: false });
+        expect(getStoreDataSpy).toHaveBeenCalledWith(TEST_PAGE_PATH);
 
         const childNode = vm.find('#' + INNER_COMPONENT_ID);
 
@@ -237,10 +240,7 @@ describe('ModelProvider ->', () => {
         });
 
         expect(addListenerSpy).toHaveBeenCalled();
-        expect(getDataSpy).toHaveBeenCalledWith({
-            path: `${PAGE_PATH}/jcr:content/${ITEM_PATH}`,
-            forceReload: false
-        });
+        expect(getStoreDataSpy).toHaveBeenCalledWith(`${PAGE_PATH}/jcr:content/${ITEM_PATH}`);
 
         const childNode = vm.find('#' + INNER_COMPONENT_ID);
 
@@ -263,7 +263,7 @@ describe('ModelProvider ->', () => {
         });
 
 
-        expect(getDataSpy).toHaveBeenCalledWith({ path: TEST_PAGE_PATH, forceReload: false });
+        expect(getStoreDataSpy).toHaveBeenCalledWith(TEST_PAGE_PATH);
 
         const childNode = vm.find('#' + INNER_COMPONENT_ID);
 
@@ -274,6 +274,38 @@ describe('ModelProvider ->', () => {
 
         isInEditor.mockReset();
         dispatchEventSpy.mockReset();
+    });
+
+    it('should get data directly from store if already available', () => {
+
+        const DummyWithModel = withModel(Dummy, { injectPropsOnInit: true });
+
+        const vm = mount(DummyWithModel, {
+            attachTo: rootNode,
+            propsData: {
+                cqPath: TEST_PAGE_PATH,
+            }
+        });
+
+        expect(getStoreDataSpy).toHaveBeenCalledWith(TEST_PAGE_PATH);
+        expect(getManagerDataSpy).not.toHaveBeenCalled()
+    });
+
+    it('should get data from manager if not yet available in store', () => {
+
+        getStoreDataSpy.mockReturnValue({});
+
+        const DummyWithModel = withModel(Dummy, { injectPropsOnInit: true });
+
+        const vm = mount(DummyWithModel, {
+            attachTo: rootNode,
+            propsData: {
+                cqPath: TEST_PAGE_PATH,
+            }
+        });
+
+        expect(getStoreDataSpy).toHaveBeenCalledWith(TEST_PAGE_PATH);
+        expect(getManagerDataSpy).toHaveBeenCalledWith({ path: TEST_PAGE_PATH, forceReload: false });
     });
 });
 
