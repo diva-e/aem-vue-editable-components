@@ -2459,8 +2459,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "MapTo", function() { return MapTo; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "withMappable", function() { return withMappable; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "withComponentMappingContext", function() { return withComponentMappingContext; });
-/* harmony import */ var C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_objectSpread2__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/objectSpread2 */ "./node_modules/@babel/runtime/helpers/esm/objectSpread2.js");
-/* harmony import */ var C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/objectWithoutProperties */ "./node_modules/@babel/runtime/helpers/esm/objectWithoutProperties.js");
+/* harmony import */ var _home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_objectSpread2__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/objectSpread2 */ "./node_modules/@babel/runtime/helpers/esm/objectSpread2.js");
+/* harmony import */ var _home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/objectWithoutProperties */ "./node_modules/@babel/runtime/helpers/esm/objectWithoutProperties.js");
 /* harmony import */ var core_js_modules_es_array_map_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! core-js/modules/es.array.map.js */ "./node_modules/core-js/modules/es.array.map.js");
 /* harmony import */ var core_js_modules_es_array_map_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_array_map_js__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var reflect_metadata__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! reflect-metadata */ "reflect-metadata");
@@ -2526,9 +2526,9 @@ var withMappable = function withMappable(component, editConfig, config) {
       injectPropsOnInit = _ref$injectPropsOnIni === void 0 ? true : _ref$injectPropsOnIni,
       _ref$forceReload = _ref.forceReload,
       forceReload = _ref$forceReload === void 0 ? false : _ref$forceReload,
-      rest = Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_1__["default"])(_ref, _excluded);
+      rest = Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_1__["default"])(_ref, _excluded);
 
-  var configToUse = Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_objectSpread2__WEBPACK_IMPORTED_MODULE_0__["default"])({
+  var configToUse = Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_objectSpread2__WEBPACK_IMPORTED_MODULE_0__["default"])({
     injectPropsOnInit: injectPropsOnInit,
     forceReload: forceReload
   }, rest);
@@ -2553,9 +2553,9 @@ _adobe_aem_spa_component_mapping__WEBPACK_IMPORTED_MODULE_5__["ComponentMapping"
   var _ref2 = config || {},
       _ref2$injectPropsOnIn = _ref2.injectPropsOnInit,
       injectPropsOnInit = _ref2$injectPropsOnIn === void 0 ? true : _ref2$injectPropsOnIn,
-      rest = Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_1__["default"])(_ref2, _excluded2);
+      rest = Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_1__["default"])(_ref2, _excluded2);
 
-  var innerComponent = withMappable(component, editConfig, Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_objectSpread2__WEBPACK_IMPORTED_MODULE_0__["default"])({
+  var innerComponent = withMappable(component, editConfig, Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_objectSpread2__WEBPACK_IMPORTED_MODULE_0__["default"])({
     injectPropsOnInit: injectPropsOnInit
   }, rest));
   wrappedMapFct.call(_adobe_aem_spa_component_mapping__WEBPACK_IMPORTED_MODULE_5__["ComponentMapping"], resourceTypes, innerComponent);
@@ -2580,7 +2580,7 @@ function withComponentMappingContext(Component) {
     name: 'ComponentMappingContext',
     render: function render(createElement, context) {
       return createElement(Component, {
-        props: Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_objectSpread2__WEBPACK_IMPORTED_MODULE_0__["default"])(Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_objectSpread2__WEBPACK_IMPORTED_MODULE_0__["default"])({}, context.props), {}, {
+        props: Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_objectSpread2__WEBPACK_IMPORTED_MODULE_0__["default"])(Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_objectSpread2__WEBPACK_IMPORTED_MODULE_0__["default"])({}, context.props), {}, {
           componentMapping: context.props.componentMapping || _adobe_aem_spa_component_mapping__WEBPACK_IMPORTED_MODULE_5__["ComponentMapping"]
         })
       });
@@ -2602,8 +2602,8 @@ function withComponentMappingContext(Component) {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Constants", function() { return Constants; });
-/* harmony import */ var C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime/helpers/esm/classCallCheck.js");
-/* harmony import */ var C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/defineProperty */ "./node_modules/@babel/runtime/helpers/esm/defineProperty.js");
+/* harmony import */ var _home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime/helpers/esm/classCallCheck.js");
+/* harmony import */ var _home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/defineProperty */ "./node_modules/@babel/runtime/helpers/esm/defineProperty.js");
 /* harmony import */ var _adobe_aem_spa_page_model_manager__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @adobe/aem-spa-page-model-manager */ "@adobe/aem-spa-page-model-manager");
 /* harmony import */ var _adobe_aem_spa_page_model_manager__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_adobe_aem_spa_page_model_manager__WEBPACK_IMPORTED_MODULE_2__);
 
@@ -2630,40 +2630,40 @@ __webpack_require__.r(__webpack_exports__);
  */
 
 var Constants = function Constants() {
-  Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, Constants);
+  Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, Constants);
 };
 
-Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_1__["default"])(Constants, "DATA_PATH_ATTR", 'data-cq-data-path');
+Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_1__["default"])(Constants, "DATA_PATH_ATTR", 'data-cq-data-path');
 
-Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_1__["default"])(Constants, "DATA_CQ_RESOURCE_TYPE_ATTR", 'data-cq-resource-type');
+Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_1__["default"])(Constants, "DATA_CQ_RESOURCE_TYPE_ATTR", 'data-cq-resource-type');
 
-Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_1__["default"])(Constants, "NEW_SECTION_CLASS_NAMES", 'new section');
+Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_1__["default"])(Constants, "NEW_SECTION_CLASS_NAMES", 'new section');
 
-Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_1__["default"])(Constants, "_CONTAINER_CLASS_NAMES", 'aem-container');
+Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_1__["default"])(Constants, "_CONTAINER_CLASS_NAMES", 'aem-container');
 
-Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_1__["default"])(Constants, "_PLACEHOLDER_CLASS_NAMES", 'cq-placeholder');
+Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_1__["default"])(Constants, "_PLACEHOLDER_CLASS_NAMES", 'cq-placeholder');
 
-Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_1__["default"])(Constants, "_PAGE_CLASS_NAMES", 'aem-page');
+Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_1__["default"])(Constants, "_PAGE_CLASS_NAMES", 'aem-page');
 
-Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_1__["default"])(Constants, "_RESPONSIVE_GRID_PLACEHOLDER_CLASS_NAMES", 'aem-Grid-newComponent');
+Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_1__["default"])(Constants, "_RESPONSIVE_GRID_PLACEHOLDER_CLASS_NAMES", 'aem-Grid-newComponent');
 
-Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_1__["default"])(Constants, "ASYNC_CONTENT_LOADED_EVENT", 'cq-async-content-loaded');
+Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_1__["default"])(Constants, "ASYNC_CONTENT_LOADED_EVENT", 'cq-async-content-loaded');
 
-Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_1__["default"])(Constants, "_WCM_MODE_META_SELECTOR", 'meta[property="cq:wcmmode"]');
+Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_1__["default"])(Constants, "_WCM_MODE_META_SELECTOR", 'meta[property="cq:wcmmode"]');
 
-Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_1__["default"])(Constants, "TYPE_PROP", _adobe_aem_spa_page_model_manager__WEBPACK_IMPORTED_MODULE_2__["Constants"].TYPE_PROP);
+Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_1__["default"])(Constants, "TYPE_PROP", _adobe_aem_spa_page_model_manager__WEBPACK_IMPORTED_MODULE_2__["Constants"].TYPE_PROP);
 
-Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_1__["default"])(Constants, "ITEMS_PROP", _adobe_aem_spa_page_model_manager__WEBPACK_IMPORTED_MODULE_2__["Constants"].ITEMS_PROP);
+Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_1__["default"])(Constants, "ITEMS_PROP", _adobe_aem_spa_page_model_manager__WEBPACK_IMPORTED_MODULE_2__["Constants"].ITEMS_PROP);
 
-Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_1__["default"])(Constants, "ITEMS_ORDER_PROP", _adobe_aem_spa_page_model_manager__WEBPACK_IMPORTED_MODULE_2__["Constants"].ITEMS_ORDER_PROP);
+Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_1__["default"])(Constants, "ITEMS_ORDER_PROP", _adobe_aem_spa_page_model_manager__WEBPACK_IMPORTED_MODULE_2__["Constants"].ITEMS_ORDER_PROP);
 
-Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_1__["default"])(Constants, "PATH_PROP", _adobe_aem_spa_page_model_manager__WEBPACK_IMPORTED_MODULE_2__["Constants"].PATH_PROP);
+Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_1__["default"])(Constants, "PATH_PROP", _adobe_aem_spa_page_model_manager__WEBPACK_IMPORTED_MODULE_2__["Constants"].PATH_PROP);
 
-Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_1__["default"])(Constants, "CHILDREN_PROP", _adobe_aem_spa_page_model_manager__WEBPACK_IMPORTED_MODULE_2__["Constants"].CHILDREN_PROP);
+Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_1__["default"])(Constants, "CHILDREN_PROP", _adobe_aem_spa_page_model_manager__WEBPACK_IMPORTED_MODULE_2__["Constants"].CHILDREN_PROP);
 
-Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_1__["default"])(Constants, "HIERARCHY_TYPE_PROP", _adobe_aem_spa_page_model_manager__WEBPACK_IMPORTED_MODULE_2__["Constants"].HIERARCHY_TYPE_PROP);
+Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_1__["default"])(Constants, "HIERARCHY_TYPE_PROP", _adobe_aem_spa_page_model_manager__WEBPACK_IMPORTED_MODULE_2__["Constants"].HIERARCHY_TYPE_PROP);
 
-Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_1__["default"])(Constants, "JCR_CONTENT", _adobe_aem_spa_page_model_manager__WEBPACK_IMPORTED_MODULE_2__["Constants"].JCR_CONTENT);
+Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_1__["default"])(Constants, "JCR_CONTENT", _adobe_aem_spa_page_model_manager__WEBPACK_IMPORTED_MODULE_2__["Constants"].JCR_CONTENT);
 
 /***/ }),
 
@@ -2677,7 +2677,7 @@ Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "withEditorContext", function() { return withEditorContext; });
-/* harmony import */ var C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_objectSpread2__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/objectSpread2 */ "./node_modules/@babel/runtime/helpers/esm/objectSpread2.js");
+/* harmony import */ var _home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_objectSpread2__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/objectSpread2 */ "./node_modules/@babel/runtime/helpers/esm/objectSpread2.js");
 /* harmony import */ var vue_property_decorator__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! vue-property-decorator */ "vue-property-decorator");
 /* harmony import */ var vue_property_decorator__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(vue_property_decorator__WEBPACK_IMPORTED_MODULE_1__);
 
@@ -2705,8 +2705,8 @@ var withEditorContext = function withEditorContext(Component) {
     name: 'EditorContext',
     render: function render(createElement, context) {
       return createElement(Component, {
-        attrs: Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_objectSpread2__WEBPACK_IMPORTED_MODULE_0__["default"])({}, context.data.attrs),
-        props: Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_objectSpread2__WEBPACK_IMPORTED_MODULE_0__["default"])({}, context.props)
+        attrs: Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_objectSpread2__WEBPACK_IMPORTED_MODULE_0__["default"])({}, context.data.attrs),
+        props: Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_objectSpread2__WEBPACK_IMPORTED_MODULE_0__["default"])({}, context.props)
       });
     }
   });
@@ -2725,7 +2725,7 @@ var withEditorContext = function withEditorContext(Component) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_objectSpread2__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/objectSpread2 */ "./node_modules/@babel/runtime/helpers/esm/objectSpread2.js");
+/* harmony import */ var _home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_objectSpread2__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/objectSpread2 */ "./node_modules/@babel/runtime/helpers/esm/objectSpread2.js");
 /* harmony import */ var core_js_modules_es_object_get_own_property_names_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! core-js/modules/es.object.get-own-property-names.js */ "./node_modules/core-js/modules/es.object.get-own-property-names.js");
 /* harmony import */ var core_js_modules_es_object_get_own_property_names_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_object_get_own_property_names_js__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var core_js_modules_es_array_for_each_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! core-js/modules/es.array.for-each.js */ "./node_modules/core-js/modules/es.array.for-each.js");
@@ -2811,7 +2811,7 @@ var Utils = {
     // props.cqItems = {}
     // props.__ob__ = {}
 
-    return Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_objectSpread2__WEBPACK_IMPORTED_MODULE_0__["default"])({}, props);
+    return Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_objectSpread2__WEBPACK_IMPORTED_MODULE_0__["default"])({}, props);
   },
 
   /**
@@ -2856,15 +2856,15 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Container", function() { return Container; });
 /* harmony import */ var _vue_babel_helper_vue_jsx_merge_props__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @vue/babel-helper-vue-jsx-merge-props */ "./node_modules/@vue/babel-helper-vue-jsx-merge-props/dist/helper.js");
 /* harmony import */ var _vue_babel_helper_vue_jsx_merge_props__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_vue_babel_helper_vue_jsx_merge_props__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/createClass */ "./node_modules/@babel/runtime/helpers/esm/createClass.js");
-/* harmony import */ var C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_initializerDefineProperty__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/initializerDefineProperty */ "./node_modules/@babel/runtime/helpers/esm/initializerDefineProperty.js");
-/* harmony import */ var C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime/helpers/esm/classCallCheck.js");
-/* harmony import */ var C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/assertThisInitialized */ "./node_modules/@babel/runtime/helpers/esm/assertThisInitialized.js");
-/* harmony import */ var C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/inherits */ "./node_modules/@babel/runtime/helpers/esm/inherits.js");
-/* harmony import */ var C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_createSuper__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/createSuper */ "./node_modules/@babel/runtime/helpers/esm/createSuper.js");
-/* harmony import */ var C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/defineProperty */ "./node_modules/@babel/runtime/helpers/esm/defineProperty.js");
-/* harmony import */ var C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_applyDecoratedDescriptor__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/applyDecoratedDescriptor */ "./node_modules/@babel/runtime/helpers/esm/applyDecoratedDescriptor.js");
-/* harmony import */ var C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_initializerWarningHelper__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/initializerWarningHelper */ "./node_modules/@babel/runtime/helpers/esm/initializerWarningHelper.js");
+/* harmony import */ var _home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/createClass */ "./node_modules/@babel/runtime/helpers/esm/createClass.js");
+/* harmony import */ var _home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_initializerDefineProperty__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/initializerDefineProperty */ "./node_modules/@babel/runtime/helpers/esm/initializerDefineProperty.js");
+/* harmony import */ var _home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime/helpers/esm/classCallCheck.js");
+/* harmony import */ var _home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/assertThisInitialized */ "./node_modules/@babel/runtime/helpers/esm/assertThisInitialized.js");
+/* harmony import */ var _home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/inherits */ "./node_modules/@babel/runtime/helpers/esm/inherits.js");
+/* harmony import */ var _home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_createSuper__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/createSuper */ "./node_modules/@babel/runtime/helpers/esm/createSuper.js");
+/* harmony import */ var _home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/defineProperty */ "./node_modules/@babel/runtime/helpers/esm/defineProperty.js");
+/* harmony import */ var _home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_applyDecoratedDescriptor__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/applyDecoratedDescriptor */ "./node_modules/@babel/runtime/helpers/esm/applyDecoratedDescriptor.js");
+/* harmony import */ var _home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_initializerWarningHelper__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/initializerWarningHelper */ "./node_modules/@babel/runtime/helpers/esm/initializerWarningHelper.js");
 /* harmony import */ var core_js_modules_es_array_concat_js__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! core-js/modules/es.array.concat.js */ "./node_modules/core-js/modules/es.array.concat.js");
 /* harmony import */ var core_js_modules_es_array_concat_js__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_array_concat_js__WEBPACK_IMPORTED_MODULE_10__);
 /* harmony import */ var core_js_modules_es_array_map_js__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! core-js/modules/es.array.map.js */ "./node_modules/core-js/modules/es.array.map.js");
@@ -2927,14 +2927,14 @@ var ReloadForceAbleMixin = (_dec = Object(vue_property_decorator__WEBPACK_IMPORT
 }), _dec2 = Object(vue_property_decorator__WEBPACK_IMPORTED_MODULE_13__["Prop"])({
   "default": false
 }), _dec(_class = (_class2 = /*#__PURE__*/function (_Vue) {
-  Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_5__["default"])(ReloadForceAbleMixin, _Vue);
+  Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_5__["default"])(ReloadForceAbleMixin, _Vue);
 
-  var _super = Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_createSuper__WEBPACK_IMPORTED_MODULE_6__["default"])(ReloadForceAbleMixin);
+  var _super = Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_createSuper__WEBPACK_IMPORTED_MODULE_6__["default"])(ReloadForceAbleMixin);
 
   function ReloadForceAbleMixin() {
     var _this;
 
-    Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_3__["default"])(this, ReloadForceAbleMixin);
+    Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_3__["default"])(this, ReloadForceAbleMixin);
 
     for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
       args[_key] = arguments[_key];
@@ -2942,13 +2942,13 @@ var ReloadForceAbleMixin = (_dec = Object(vue_property_decorator__WEBPACK_IMPORT
 
     _this = _super.call.apply(_super, [this].concat(args));
 
-    Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_initializerDefineProperty__WEBPACK_IMPORTED_MODULE_2__["default"])(Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__["default"])(_this), "cqForceReload", _descriptor, Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__["default"])(_this));
+    Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_initializerDefineProperty__WEBPACK_IMPORTED_MODULE_2__["default"])(Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__["default"])(_this), "cqForceReload", _descriptor, Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__["default"])(_this));
 
     return _this;
   }
 
   return ReloadForceAbleMixin;
-}(vue_property_decorator__WEBPACK_IMPORTED_MODULE_13__["Vue"]), (_descriptor = Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_applyDecoratedDescriptor__WEBPACK_IMPORTED_MODULE_8__["default"])(_class2.prototype, "cqForceReload", [_dec2], {
+}(vue_property_decorator__WEBPACK_IMPORTED_MODULE_13__["Vue"]), (_descriptor = Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_applyDecoratedDescriptor__WEBPACK_IMPORTED_MODULE_8__["default"])(_class2.prototype, "cqForceReload", [_dec2], {
   configurable: true,
   enumerable: true,
   writable: true,
@@ -2967,14 +2967,14 @@ var MappedComponentPropertiesMixin = (_dec3 = Object(vue_property_decorator__WEB
 }), _dec6 = Object(vue_property_decorator__WEBPACK_IMPORTED_MODULE_13__["Prop"])({
   "default": false
 }), _dec3(_class4 = (_class5 = /*#__PURE__*/function (_Mixins) {
-  Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_5__["default"])(MappedComponentPropertiesMixin, _Mixins);
+  Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_5__["default"])(MappedComponentPropertiesMixin, _Mixins);
 
-  var _super2 = Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_createSuper__WEBPACK_IMPORTED_MODULE_6__["default"])(MappedComponentPropertiesMixin);
+  var _super2 = Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_createSuper__WEBPACK_IMPORTED_MODULE_6__["default"])(MappedComponentPropertiesMixin);
 
   function MappedComponentPropertiesMixin() {
     var _this2;
 
-    Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_3__["default"])(this, MappedComponentPropertiesMixin);
+    Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_3__["default"])(this, MappedComponentPropertiesMixin);
 
     for (var _len2 = arguments.length, args = new Array(_len2), _key2 = 0; _key2 < _len2; _key2++) {
       args[_key2] = arguments[_key2];
@@ -2982,27 +2982,27 @@ var MappedComponentPropertiesMixin = (_dec3 = Object(vue_property_decorator__WEB
 
     _this2 = _super2.call.apply(_super2, [this].concat(args));
 
-    Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_initializerDefineProperty__WEBPACK_IMPORTED_MODULE_2__["default"])(Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__["default"])(_this2), "isInEditor", _descriptor2, Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__["default"])(_this2));
+    Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_initializerDefineProperty__WEBPACK_IMPORTED_MODULE_2__["default"])(Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__["default"])(_this2), "isInEditor", _descriptor2, Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__["default"])(_this2));
 
-    Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_initializerDefineProperty__WEBPACK_IMPORTED_MODULE_2__["default"])(Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__["default"])(_this2), "cqPath", _descriptor3, Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__["default"])(_this2));
+    Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_initializerDefineProperty__WEBPACK_IMPORTED_MODULE_2__["default"])(Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__["default"])(_this2), "cqPath", _descriptor3, Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__["default"])(_this2));
 
-    Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_initializerDefineProperty__WEBPACK_IMPORTED_MODULE_2__["default"])(Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__["default"])(_this2), "aemNoDecoration", _descriptor4, Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__["default"])(_this2));
+    Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_initializerDefineProperty__WEBPACK_IMPORTED_MODULE_2__["default"])(Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__["default"])(_this2), "aemNoDecoration", _descriptor4, Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__["default"])(_this2));
 
     return _this2;
   }
 
   return MappedComponentPropertiesMixin;
-}(Object(vue_property_decorator__WEBPACK_IMPORTED_MODULE_13__["Mixins"])(ReloadForceAbleMixin)), (_descriptor2 = Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_applyDecoratedDescriptor__WEBPACK_IMPORTED_MODULE_8__["default"])(_class5.prototype, "isInEditor", [_dec4], {
+}(Object(vue_property_decorator__WEBPACK_IMPORTED_MODULE_13__["Mixins"])(ReloadForceAbleMixin)), (_descriptor2 = Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_applyDecoratedDescriptor__WEBPACK_IMPORTED_MODULE_8__["default"])(_class5.prototype, "isInEditor", [_dec4], {
   configurable: true,
   enumerable: true,
   writable: true,
   initializer: null
-}), _descriptor3 = Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_applyDecoratedDescriptor__WEBPACK_IMPORTED_MODULE_8__["default"])(_class5.prototype, "cqPath", [_dec5], {
+}), _descriptor3 = Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_applyDecoratedDescriptor__WEBPACK_IMPORTED_MODULE_8__["default"])(_class5.prototype, "cqPath", [_dec5], {
   configurable: true,
   enumerable: true,
   writable: true,
   initializer: null
-}), _descriptor4 = Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_applyDecoratedDescriptor__WEBPACK_IMPORTED_MODULE_8__["default"])(_class5.prototype, "aemNoDecoration", [_dec6], {
+}), _descriptor4 = Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_applyDecoratedDescriptor__WEBPACK_IMPORTED_MODULE_8__["default"])(_class5.prototype, "aemNoDecoration", [_dec6], {
   configurable: true,
   enumerable: true,
   writable: true,
@@ -3011,14 +3011,14 @@ var MappedComponentPropertiesMixin = (_dec3 = Object(vue_property_decorator__WEB
 var ContainerStateMixin = (_dec7 = Object(vue_property_decorator__WEBPACK_IMPORTED_MODULE_13__["Component"])({
   components: {}
 }), _dec8 = Object(vue_property_decorator__WEBPACK_IMPORTED_MODULE_13__["Prop"])({}), _dec7(_class7 = (_class8 = /*#__PURE__*/function (_Vue2) {
-  Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_5__["default"])(ContainerStateMixin, _Vue2);
+  Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_5__["default"])(ContainerStateMixin, _Vue2);
 
-  var _super3 = Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_createSuper__WEBPACK_IMPORTED_MODULE_6__["default"])(ContainerStateMixin);
+  var _super3 = Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_createSuper__WEBPACK_IMPORTED_MODULE_6__["default"])(ContainerStateMixin);
 
   function ContainerStateMixin() {
     var _this3;
 
-    Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_3__["default"])(this, ContainerStateMixin);
+    Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_3__["default"])(this, ContainerStateMixin);
 
     for (var _len3 = arguments.length, args = new Array(_len3), _key3 = 0; _key3 < _len3; _key3++) {
       args[_key3] = arguments[_key3];
@@ -3026,13 +3026,13 @@ var ContainerStateMixin = (_dec7 = Object(vue_property_decorator__WEBPACK_IMPORT
 
     _this3 = _super3.call.apply(_super3, [this].concat(args));
 
-    Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_initializerDefineProperty__WEBPACK_IMPORTED_MODULE_2__["default"])(Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__["default"])(_this3), "componentMapping", _descriptor5, Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__["default"])(_this3));
+    Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_initializerDefineProperty__WEBPACK_IMPORTED_MODULE_2__["default"])(Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__["default"])(_this3), "componentMapping", _descriptor5, Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__["default"])(_this3));
 
     return _this3;
   }
 
   return ContainerStateMixin;
-}(vue_property_decorator__WEBPACK_IMPORTED_MODULE_13__["Vue"]), (_descriptor5 = Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_applyDecoratedDescriptor__WEBPACK_IMPORTED_MODULE_8__["default"])(_class8.prototype, "componentMapping", [_dec8], {
+}(vue_property_decorator__WEBPACK_IMPORTED_MODULE_13__["Vue"]), (_descriptor5 = Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_applyDecoratedDescriptor__WEBPACK_IMPORTED_MODULE_8__["default"])(_class8.prototype, "componentMapping", [_dec8], {
   configurable: true,
   enumerable: true,
   writable: true,
@@ -3049,14 +3049,14 @@ var ContainerPropertiesMixins = (_dec9 = Object(vue_property_decorator__WEBPACK_
 }), _dec12 = Object(vue_property_decorator__WEBPACK_IMPORTED_MODULE_13__["Prop"])({
   "default": function _default() {}
 }), _dec9(_class10 = (_class11 = /*#__PURE__*/function (_Mixins2) {
-  Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_5__["default"])(ContainerPropertiesMixins, _Mixins2);
+  Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_5__["default"])(ContainerPropertiesMixins, _Mixins2);
 
-  var _super4 = Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_createSuper__WEBPACK_IMPORTED_MODULE_6__["default"])(ContainerPropertiesMixins);
+  var _super4 = Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_createSuper__WEBPACK_IMPORTED_MODULE_6__["default"])(ContainerPropertiesMixins);
 
   function ContainerPropertiesMixins() {
     var _this4;
 
-    Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_3__["default"])(this, ContainerPropertiesMixins);
+    Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_3__["default"])(this, ContainerPropertiesMixins);
 
     for (var _len4 = arguments.length, args = new Array(_len4), _key4 = 0; _key4 < _len4; _key4++) {
       args[_key4] = arguments[_key4];
@@ -3064,27 +3064,27 @@ var ContainerPropertiesMixins = (_dec9 = Object(vue_property_decorator__WEBPACK_
 
     _this4 = _super4.call.apply(_super4, [this].concat(args));
 
-    Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_initializerDefineProperty__WEBPACK_IMPORTED_MODULE_2__["default"])(Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__["default"])(_this4), "cqItems", _descriptor6, Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__["default"])(_this4));
+    Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_initializerDefineProperty__WEBPACK_IMPORTED_MODULE_2__["default"])(Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__["default"])(_this4), "cqItems", _descriptor6, Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__["default"])(_this4));
 
-    Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_initializerDefineProperty__WEBPACK_IMPORTED_MODULE_2__["default"])(Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__["default"])(_this4), "cqItemsOrder", _descriptor7, Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__["default"])(_this4));
+    Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_initializerDefineProperty__WEBPACK_IMPORTED_MODULE_2__["default"])(Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__["default"])(_this4), "cqItemsOrder", _descriptor7, Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__["default"])(_this4));
 
-    Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_initializerDefineProperty__WEBPACK_IMPORTED_MODULE_2__["default"])(Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__["default"])(_this4), "componentMapping", _descriptor8, Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__["default"])(_this4));
+    Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_initializerDefineProperty__WEBPACK_IMPORTED_MODULE_2__["default"])(Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__["default"])(_this4), "componentMapping", _descriptor8, Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__["default"])(_this4));
 
     return _this4;
   }
 
   return ContainerPropertiesMixins;
-}(Object(vue_property_decorator__WEBPACK_IMPORTED_MODULE_13__["Mixins"])(MappedComponentPropertiesMixin)), (_descriptor6 = Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_applyDecoratedDescriptor__WEBPACK_IMPORTED_MODULE_8__["default"])(_class11.prototype, "cqItems", [_dec10], {
+}(Object(vue_property_decorator__WEBPACK_IMPORTED_MODULE_13__["Mixins"])(MappedComponentPropertiesMixin)), (_descriptor6 = Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_applyDecoratedDescriptor__WEBPACK_IMPORTED_MODULE_8__["default"])(_class11.prototype, "cqItems", [_dec10], {
   configurable: true,
   enumerable: true,
   writable: true,
   initializer: null
-}), _descriptor7 = Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_applyDecoratedDescriptor__WEBPACK_IMPORTED_MODULE_8__["default"])(_class11.prototype, "cqItemsOrder", [_dec11], {
+}), _descriptor7 = Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_applyDecoratedDescriptor__WEBPACK_IMPORTED_MODULE_8__["default"])(_class11.prototype, "cqItemsOrder", [_dec11], {
   configurable: true,
   enumerable: true,
   writable: true,
   initializer: null
-}), _descriptor8 = Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_applyDecoratedDescriptor__WEBPACK_IMPORTED_MODULE_8__["default"])(_class11.prototype, "componentMapping", [_dec12], {
+}), _descriptor8 = Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_applyDecoratedDescriptor__WEBPACK_IMPORTED_MODULE_8__["default"])(_class11.prototype, "componentMapping", [_dec12], {
   configurable: true,
   enumerable: true,
   writable: true,
@@ -3095,14 +3095,14 @@ var Container = (_dec13 = Object(vue_property_decorator__WEBPACK_IMPORTED_MODULE
     Fragment: vue_frag__WEBPACK_IMPORTED_MODULE_18__["Fragment"]
   }
 }), _dec13(_class13 = /*#__PURE__*/function (_Mixins3) {
-  Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_5__["default"])(Container, _Mixins3);
+  Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_5__["default"])(Container, _Mixins3);
 
-  var _super5 = Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_createSuper__WEBPACK_IMPORTED_MODULE_6__["default"])(Container);
+  var _super5 = Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_createSuper__WEBPACK_IMPORTED_MODULE_6__["default"])(Container);
 
   function Container() {
     var _this5;
 
-    Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_3__["default"])(this, Container);
+    Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_3__["default"])(this, Container);
 
     for (var _len5 = arguments.length, args = new Array(_len5), _key5 = 0; _key5 < _len5; _key5++) {
       args[_key5] = arguments[_key5];
@@ -3110,14 +3110,14 @@ var Container = (_dec13 = Object(vue_property_decorator__WEBPACK_IMPORTED_MODULE
 
     _this5 = _super5.call.apply(_super5, [this].concat(args));
 
-    Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_7__["default"])(Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__["default"])(_this5), "state", {
+    Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_7__["default"])(Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__["default"])(_this5), "state", {
       componentMapping: _this5.componentMapping || _ComponentMapping__WEBPACK_IMPORTED_MODULE_14__["ComponentMapping"]
     });
 
     return _this5;
   }
 
-  Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(Container, [{
+  Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(Container, [{
     key: "childComponents",
     get:
     /**
@@ -3280,15 +3280,15 @@ var Container = (_dec13 = Object(vue_property_decorator__WEBPACK_IMPORTED_MODULE
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ContainerPlaceholder", function() { return ContainerPlaceholder; });
-/* harmony import */ var C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_initializerDefineProperty__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/initializerDefineProperty */ "./node_modules/@babel/runtime/helpers/esm/initializerDefineProperty.js");
-/* harmony import */ var C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime/helpers/esm/classCallCheck.js");
-/* harmony import */ var C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/createClass */ "./node_modules/@babel/runtime/helpers/esm/createClass.js");
-/* harmony import */ var C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/assertThisInitialized */ "./node_modules/@babel/runtime/helpers/esm/assertThisInitialized.js");
-/* harmony import */ var C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/inherits */ "./node_modules/@babel/runtime/helpers/esm/inherits.js");
-/* harmony import */ var C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_createSuper__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/createSuper */ "./node_modules/@babel/runtime/helpers/esm/createSuper.js");
-/* harmony import */ var C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/defineProperty */ "./node_modules/@babel/runtime/helpers/esm/defineProperty.js");
-/* harmony import */ var C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_applyDecoratedDescriptor__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/applyDecoratedDescriptor */ "./node_modules/@babel/runtime/helpers/esm/applyDecoratedDescriptor.js");
-/* harmony import */ var C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_initializerWarningHelper__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/initializerWarningHelper */ "./node_modules/@babel/runtime/helpers/esm/initializerWarningHelper.js");
+/* harmony import */ var _home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_initializerDefineProperty__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/initializerDefineProperty */ "./node_modules/@babel/runtime/helpers/esm/initializerDefineProperty.js");
+/* harmony import */ var _home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime/helpers/esm/classCallCheck.js");
+/* harmony import */ var _home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/createClass */ "./node_modules/@babel/runtime/helpers/esm/createClass.js");
+/* harmony import */ var _home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/assertThisInitialized */ "./node_modules/@babel/runtime/helpers/esm/assertThisInitialized.js");
+/* harmony import */ var _home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/inherits */ "./node_modules/@babel/runtime/helpers/esm/inherits.js");
+/* harmony import */ var _home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_createSuper__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/createSuper */ "./node_modules/@babel/runtime/helpers/esm/createSuper.js");
+/* harmony import */ var _home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/defineProperty */ "./node_modules/@babel/runtime/helpers/esm/defineProperty.js");
+/* harmony import */ var _home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_applyDecoratedDescriptor__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/applyDecoratedDescriptor */ "./node_modules/@babel/runtime/helpers/esm/applyDecoratedDescriptor.js");
+/* harmony import */ var _home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_initializerWarningHelper__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/initializerWarningHelper */ "./node_modules/@babel/runtime/helpers/esm/initializerWarningHelper.js");
 /* harmony import */ var core_js_modules_es_array_concat_js__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! core-js/modules/es.array.concat.js */ "./node_modules/core-js/modules/es.array.concat.js");
 /* harmony import */ var core_js_modules_es_array_concat_js__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_array_concat_js__WEBPACK_IMPORTED_MODULE_9__);
 /* harmony import */ var reflect_metadata__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! reflect-metadata */ "reflect-metadata");
@@ -3329,14 +3329,14 @@ var _dec, _dec2, _dec3, _class, _class2, _descriptor, _descriptor2;
 var ContainerPlaceholder = (_dec = Object(vue_property_decorator__WEBPACK_IMPORTED_MODULE_11__["Component"])({
   components: {}
 }), _dec2 = Object(vue_property_decorator__WEBPACK_IMPORTED_MODULE_11__["Prop"])(), _dec3 = Object(vue_property_decorator__WEBPACK_IMPORTED_MODULE_11__["Prop"])(), _dec(_class = (_class2 = /*#__PURE__*/function (_Vue) {
-  Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__["default"])(ContainerPlaceholder, _Vue);
+  Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__["default"])(ContainerPlaceholder, _Vue);
 
-  var _super = Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_createSuper__WEBPACK_IMPORTED_MODULE_5__["default"])(ContainerPlaceholder);
+  var _super = Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_createSuper__WEBPACK_IMPORTED_MODULE_5__["default"])(ContainerPlaceholder);
 
   function ContainerPlaceholder() {
     var _this;
 
-    Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_1__["default"])(this, ContainerPlaceholder);
+    Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_1__["default"])(this, ContainerPlaceholder);
 
     for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
       args[_key] = arguments[_key];
@@ -3344,14 +3344,14 @@ var ContainerPlaceholder = (_dec = Object(vue_property_decorator__WEBPACK_IMPORT
 
     _this = _super.call.apply(_super, [this].concat(args));
 
-    Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_initializerDefineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_3__["default"])(_this), "placeholderClassNames", _descriptor, Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_3__["default"])(_this));
+    Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_initializerDefineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_3__["default"])(_this), "placeholderClassNames", _descriptor, Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_3__["default"])(_this));
 
-    Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_initializerDefineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_3__["default"])(_this), "cqPath", _descriptor2, Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_3__["default"])(_this));
+    Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_initializerDefineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_3__["default"])(_this), "cqPath", _descriptor2, Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_3__["default"])(_this));
 
     return _this;
   }
 
-  Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_2__["default"])(ContainerPlaceholder, [{
+  Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_2__["default"])(ContainerPlaceholder, [{
     key: "render",
     value: function render(createElement) {
       var h = arguments[0];
@@ -3365,12 +3365,12 @@ var ContainerPlaceholder = (_dec = Object(vue_property_decorator__WEBPACK_IMPORT
   }]);
 
   return ContainerPlaceholder;
-}(vue_property_decorator__WEBPACK_IMPORTED_MODULE_11__["Vue"]), (_descriptor = Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_applyDecoratedDescriptor__WEBPACK_IMPORTED_MODULE_7__["default"])(_class2.prototype, "placeholderClassNames", [_dec2], {
+}(vue_property_decorator__WEBPACK_IMPORTED_MODULE_11__["Vue"]), (_descriptor = Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_applyDecoratedDescriptor__WEBPACK_IMPORTED_MODULE_7__["default"])(_class2.prototype, "placeholderClassNames", [_dec2], {
   configurable: true,
   enumerable: true,
   writable: true,
   initializer: null
-}), _descriptor2 = Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_applyDecoratedDescriptor__WEBPACK_IMPORTED_MODULE_7__["default"])(_class2.prototype, "cqPath", [_dec3], {
+}), _descriptor2 = Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_applyDecoratedDescriptor__WEBPACK_IMPORTED_MODULE_7__["default"])(_class2.prototype, "cqPath", [_dec3], {
   configurable: true,
   enumerable: true,
   writable: true,
@@ -3393,16 +3393,16 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "withEditable", function() { return withEditable; });
 /* harmony import */ var _vue_babel_helper_vue_jsx_merge_props__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @vue/babel-helper-vue-jsx-merge-props */ "./node_modules/@vue/babel-helper-vue-jsx-merge-props/dist/helper.js");
 /* harmony import */ var _vue_babel_helper_vue_jsx_merge_props__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_vue_babel_helper_vue_jsx_merge_props__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/createClass */ "./node_modules/@babel/runtime/helpers/esm/createClass.js");
-/* harmony import */ var C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_objectSpread2__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/objectSpread2 */ "./node_modules/@babel/runtime/helpers/esm/objectSpread2.js");
-/* harmony import */ var C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_initializerDefineProperty__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/initializerDefineProperty */ "./node_modules/@babel/runtime/helpers/esm/initializerDefineProperty.js");
-/* harmony import */ var C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime/helpers/esm/classCallCheck.js");
-/* harmony import */ var C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/assertThisInitialized */ "./node_modules/@babel/runtime/helpers/esm/assertThisInitialized.js");
-/* harmony import */ var C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/inherits */ "./node_modules/@babel/runtime/helpers/esm/inherits.js");
-/* harmony import */ var C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_createSuper__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/createSuper */ "./node_modules/@babel/runtime/helpers/esm/createSuper.js");
-/* harmony import */ var C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/defineProperty */ "./node_modules/@babel/runtime/helpers/esm/defineProperty.js");
-/* harmony import */ var C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_applyDecoratedDescriptor__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/applyDecoratedDescriptor */ "./node_modules/@babel/runtime/helpers/esm/applyDecoratedDescriptor.js");
-/* harmony import */ var C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_initializerWarningHelper__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/initializerWarningHelper */ "./node_modules/@babel/runtime/helpers/esm/initializerWarningHelper.js");
+/* harmony import */ var _home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/createClass */ "./node_modules/@babel/runtime/helpers/esm/createClass.js");
+/* harmony import */ var _home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_objectSpread2__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/objectSpread2 */ "./node_modules/@babel/runtime/helpers/esm/objectSpread2.js");
+/* harmony import */ var _home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_initializerDefineProperty__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/initializerDefineProperty */ "./node_modules/@babel/runtime/helpers/esm/initializerDefineProperty.js");
+/* harmony import */ var _home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime/helpers/esm/classCallCheck.js");
+/* harmony import */ var _home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/assertThisInitialized */ "./node_modules/@babel/runtime/helpers/esm/assertThisInitialized.js");
+/* harmony import */ var _home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/inherits */ "./node_modules/@babel/runtime/helpers/esm/inherits.js");
+/* harmony import */ var _home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_createSuper__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/createSuper */ "./node_modules/@babel/runtime/helpers/esm/createSuper.js");
+/* harmony import */ var _home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/defineProperty */ "./node_modules/@babel/runtime/helpers/esm/defineProperty.js");
+/* harmony import */ var _home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_applyDecoratedDescriptor__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/applyDecoratedDescriptor */ "./node_modules/@babel/runtime/helpers/esm/applyDecoratedDescriptor.js");
+/* harmony import */ var _home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_initializerWarningHelper__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/initializerWarningHelper */ "./node_modules/@babel/runtime/helpers/esm/initializerWarningHelper.js");
 /* harmony import */ var core_js_modules_es_array_concat_js__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! core-js/modules/es.array.concat.js */ "./node_modules/core-js/modules/es.array.concat.js");
 /* harmony import */ var core_js_modules_es_array_concat_js__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_array_concat_js__WEBPACK_IMPORTED_MODULE_11__);
 /* harmony import */ var reflect_metadata__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! reflect-metadata */ "reflect-metadata");
@@ -3468,14 +3468,14 @@ var EditableComponentProperties = (_dec = Object(vue_property_decorator__WEBPACK
 }), _dec9 = Object(vue_property_decorator__WEBPACK_IMPORTED_MODULE_13__["Prop"])({
   "default": false
 }), _dec(_class = (_class2 = /*#__PURE__*/function (_Vue) {
-  Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_6__["default"])(EditableComponentProperties, _Vue);
+  Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_6__["default"])(EditableComponentProperties, _Vue);
 
-  var _super = Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_createSuper__WEBPACK_IMPORTED_MODULE_7__["default"])(EditableComponentProperties);
+  var _super = Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_createSuper__WEBPACK_IMPORTED_MODULE_7__["default"])(EditableComponentProperties);
 
   function EditableComponentProperties() {
     var _this;
 
-    Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_4__["default"])(this, EditableComponentProperties);
+    Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_4__["default"])(this, EditableComponentProperties);
 
     for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
       args[_key] = arguments[_key];
@@ -3483,62 +3483,62 @@ var EditableComponentProperties = (_dec = Object(vue_property_decorator__WEBPACK
 
     _this = _super.call.apply(_super, [this].concat(args));
 
-    Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_initializerDefineProperty__WEBPACK_IMPORTED_MODULE_3__["default"])(Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_5__["default"])(_this), "componentProperties", _descriptor, Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_5__["default"])(_this));
+    Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_initializerDefineProperty__WEBPACK_IMPORTED_MODULE_3__["default"])(Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_5__["default"])(_this), "componentProperties", _descriptor, Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_5__["default"])(_this));
 
-    Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_initializerDefineProperty__WEBPACK_IMPORTED_MODULE_3__["default"])(Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_5__["default"])(_this), "editConfig", _descriptor2, Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_5__["default"])(_this));
+    Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_initializerDefineProperty__WEBPACK_IMPORTED_MODULE_3__["default"])(Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_5__["default"])(_this), "editConfig", _descriptor2, Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_5__["default"])(_this));
 
-    Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_initializerDefineProperty__WEBPACK_IMPORTED_MODULE_3__["default"])(Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_5__["default"])(_this), "wrappedComponent", _descriptor3, Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_5__["default"])(_this));
+    Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_initializerDefineProperty__WEBPACK_IMPORTED_MODULE_3__["default"])(Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_5__["default"])(_this), "wrappedComponent", _descriptor3, Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_5__["default"])(_this));
 
-    Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_initializerDefineProperty__WEBPACK_IMPORTED_MODULE_3__["default"])(Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_5__["default"])(_this), "containerProps", _descriptor4, Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_5__["default"])(_this));
+    Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_initializerDefineProperty__WEBPACK_IMPORTED_MODULE_3__["default"])(Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_5__["default"])(_this), "containerProps", _descriptor4, Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_5__["default"])(_this));
 
-    Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_initializerDefineProperty__WEBPACK_IMPORTED_MODULE_3__["default"])(Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_5__["default"])(_this), "cqForceReload", _descriptor5, Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_5__["default"])(_this));
+    Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_initializerDefineProperty__WEBPACK_IMPORTED_MODULE_3__["default"])(Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_5__["default"])(_this), "cqForceReload", _descriptor5, Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_5__["default"])(_this));
 
-    Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_initializerDefineProperty__WEBPACK_IMPORTED_MODULE_3__["default"])(Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_5__["default"])(_this), "isInEditor", _descriptor6, Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_5__["default"])(_this));
+    Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_initializerDefineProperty__WEBPACK_IMPORTED_MODULE_3__["default"])(Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_5__["default"])(_this), "isInEditor", _descriptor6, Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_5__["default"])(_this));
 
-    Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_initializerDefineProperty__WEBPACK_IMPORTED_MODULE_3__["default"])(Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_5__["default"])(_this), "cqPath", _descriptor7, Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_5__["default"])(_this));
+    Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_initializerDefineProperty__WEBPACK_IMPORTED_MODULE_3__["default"])(Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_5__["default"])(_this), "cqPath", _descriptor7, Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_5__["default"])(_this));
 
-    Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_initializerDefineProperty__WEBPACK_IMPORTED_MODULE_3__["default"])(Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_5__["default"])(_this), "aemNoDecoration", _descriptor8, Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_5__["default"])(_this));
+    Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_initializerDefineProperty__WEBPACK_IMPORTED_MODULE_3__["default"])(Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_5__["default"])(_this), "aemNoDecoration", _descriptor8, Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_5__["default"])(_this));
 
     return _this;
   }
 
   return EditableComponentProperties;
-}(vue__WEBPACK_IMPORTED_MODULE_15___default.a), (_descriptor = Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_applyDecoratedDescriptor__WEBPACK_IMPORTED_MODULE_9__["default"])(_class2.prototype, "componentProperties", [_dec2], {
+}(vue__WEBPACK_IMPORTED_MODULE_15___default.a), (_descriptor = Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_applyDecoratedDescriptor__WEBPACK_IMPORTED_MODULE_9__["default"])(_class2.prototype, "componentProperties", [_dec2], {
   configurable: true,
   enumerable: true,
   writable: true,
   initializer: null
-}), _descriptor2 = Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_applyDecoratedDescriptor__WEBPACK_IMPORTED_MODULE_9__["default"])(_class2.prototype, "editConfig", [_dec3], {
+}), _descriptor2 = Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_applyDecoratedDescriptor__WEBPACK_IMPORTED_MODULE_9__["default"])(_class2.prototype, "editConfig", [_dec3], {
   configurable: true,
   enumerable: true,
   writable: true,
   initializer: null
-}), _descriptor3 = Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_applyDecoratedDescriptor__WEBPACK_IMPORTED_MODULE_9__["default"])(_class2.prototype, "wrappedComponent", [_dec4], {
+}), _descriptor3 = Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_applyDecoratedDescriptor__WEBPACK_IMPORTED_MODULE_9__["default"])(_class2.prototype, "wrappedComponent", [_dec4], {
   configurable: true,
   enumerable: true,
   writable: true,
   initializer: null
-}), _descriptor4 = Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_applyDecoratedDescriptor__WEBPACK_IMPORTED_MODULE_9__["default"])(_class2.prototype, "containerProps", [_dec5], {
+}), _descriptor4 = Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_applyDecoratedDescriptor__WEBPACK_IMPORTED_MODULE_9__["default"])(_class2.prototype, "containerProps", [_dec5], {
   configurable: true,
   enumerable: true,
   writable: true,
   initializer: null
-}), _descriptor5 = Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_applyDecoratedDescriptor__WEBPACK_IMPORTED_MODULE_9__["default"])(_class2.prototype, "cqForceReload", [_dec6], {
+}), _descriptor5 = Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_applyDecoratedDescriptor__WEBPACK_IMPORTED_MODULE_9__["default"])(_class2.prototype, "cqForceReload", [_dec6], {
   configurable: true,
   enumerable: true,
   writable: true,
   initializer: null
-}), _descriptor6 = Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_applyDecoratedDescriptor__WEBPACK_IMPORTED_MODULE_9__["default"])(_class2.prototype, "isInEditor", [_dec7], {
+}), _descriptor6 = Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_applyDecoratedDescriptor__WEBPACK_IMPORTED_MODULE_9__["default"])(_class2.prototype, "isInEditor", [_dec7], {
   configurable: true,
   enumerable: true,
   writable: true,
   initializer: null
-}), _descriptor7 = Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_applyDecoratedDescriptor__WEBPACK_IMPORTED_MODULE_9__["default"])(_class2.prototype, "cqPath", [_dec8], {
+}), _descriptor7 = Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_applyDecoratedDescriptor__WEBPACK_IMPORTED_MODULE_9__["default"])(_class2.prototype, "cqPath", [_dec8], {
   configurable: true,
   enumerable: true,
   writable: true,
   initializer: null
-}), _descriptor8 = Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_applyDecoratedDescriptor__WEBPACK_IMPORTED_MODULE_9__["default"])(_class2.prototype, "aemNoDecoration", [_dec9], {
+}), _descriptor8 = Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_applyDecoratedDescriptor__WEBPACK_IMPORTED_MODULE_9__["default"])(_class2.prototype, "aemNoDecoration", [_dec9], {
   configurable: true,
   enumerable: true,
   writable: true,
@@ -3551,17 +3551,17 @@ var EditableComponentProperties = (_dec = Object(vue_property_decorator__WEBPACK
 var EditableComponent = (_dec10 = Object(vue_property_decorator__WEBPACK_IMPORTED_MODULE_13__["Component"])({
   components: {}
 }), _dec10(_class4 = /*#__PURE__*/function (_Mixins) {
-  Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_6__["default"])(EditableComponent, _Mixins);
+  Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_6__["default"])(EditableComponent, _Mixins);
 
-  var _super2 = Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_createSuper__WEBPACK_IMPORTED_MODULE_7__["default"])(EditableComponent);
+  var _super2 = Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_createSuper__WEBPACK_IMPORTED_MODULE_7__["default"])(EditableComponent);
 
   function EditableComponent() {
-    Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_4__["default"])(this, EditableComponent);
+    Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_4__["default"])(this, EditableComponent);
 
     return _super2.apply(this, arguments);
   }
 
-  Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(EditableComponent, [{
+  Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(EditableComponent, [{
     key: "state",
     get: function get() {
       return this.$props;
@@ -3665,9 +3665,9 @@ function withEditable(WrappedComponent, editConfig) {
     name: 'EditableComponent',
     render: function render(createElement, context) {
       return createElement(EditableComponent, {
-        attrs: Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_objectSpread2__WEBPACK_IMPORTED_MODULE_2__["default"])({}, context.data.attrs),
-        props: Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_objectSpread2__WEBPACK_IMPORTED_MODULE_2__["default"])(Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_objectSpread2__WEBPACK_IMPORTED_MODULE_2__["default"])(Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_objectSpread2__WEBPACK_IMPORTED_MODULE_2__["default"])({}, context.props), context.data), {}, {
-          componentProperties: Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_objectSpread2__WEBPACK_IMPORTED_MODULE_2__["default"])(Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_objectSpread2__WEBPACK_IMPORTED_MODULE_2__["default"])({}, context.props), context.data),
+        attrs: Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_objectSpread2__WEBPACK_IMPORTED_MODULE_2__["default"])({}, context.data.attrs),
+        props: Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_objectSpread2__WEBPACK_IMPORTED_MODULE_2__["default"])(Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_objectSpread2__WEBPACK_IMPORTED_MODULE_2__["default"])(Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_objectSpread2__WEBPACK_IMPORTED_MODULE_2__["default"])({}, context.props), context.data), {}, {
+          componentProperties: Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_objectSpread2__WEBPACK_IMPORTED_MODULE_2__["default"])(Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_objectSpread2__WEBPACK_IMPORTED_MODULE_2__["default"])({}, context.props), context.data),
           editConfig: defaultEditConfig,
           wrappedComponent: WrappedComponent
         })
@@ -3692,17 +3692,17 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "withModel", function() { return withModel; });
 /* harmony import */ var _vue_babel_helper_vue_jsx_merge_props__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @vue/babel-helper-vue-jsx-merge-props */ "./node_modules/@vue/babel-helper-vue-jsx-merge-props/dist/helper.js");
 /* harmony import */ var _vue_babel_helper_vue_jsx_merge_props__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_vue_babel_helper_vue_jsx_merge_props__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_objectSpread2__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/objectSpread2 */ "./node_modules/@babel/runtime/helpers/esm/objectSpread2.js");
-/* harmony import */ var C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/objectWithoutProperties */ "./node_modules/@babel/runtime/helpers/esm/objectWithoutProperties.js");
-/* harmony import */ var C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/createClass */ "./node_modules/@babel/runtime/helpers/esm/createClass.js");
-/* harmony import */ var C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_initializerDefineProperty__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/initializerDefineProperty */ "./node_modules/@babel/runtime/helpers/esm/initializerDefineProperty.js");
-/* harmony import */ var C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime/helpers/esm/classCallCheck.js");
-/* harmony import */ var C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/assertThisInitialized */ "./node_modules/@babel/runtime/helpers/esm/assertThisInitialized.js");
-/* harmony import */ var C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/inherits */ "./node_modules/@babel/runtime/helpers/esm/inherits.js");
-/* harmony import */ var C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_createSuper__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/createSuper */ "./node_modules/@babel/runtime/helpers/esm/createSuper.js");
-/* harmony import */ var C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/defineProperty */ "./node_modules/@babel/runtime/helpers/esm/defineProperty.js");
-/* harmony import */ var C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_applyDecoratedDescriptor__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/applyDecoratedDescriptor */ "./node_modules/@babel/runtime/helpers/esm/applyDecoratedDescriptor.js");
-/* harmony import */ var C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_initializerWarningHelper__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/initializerWarningHelper */ "./node_modules/@babel/runtime/helpers/esm/initializerWarningHelper.js");
+/* harmony import */ var _home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_objectSpread2__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/objectSpread2 */ "./node_modules/@babel/runtime/helpers/esm/objectSpread2.js");
+/* harmony import */ var _home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/objectWithoutProperties */ "./node_modules/@babel/runtime/helpers/esm/objectWithoutProperties.js");
+/* harmony import */ var _home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/createClass */ "./node_modules/@babel/runtime/helpers/esm/createClass.js");
+/* harmony import */ var _home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_initializerDefineProperty__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/initializerDefineProperty */ "./node_modules/@babel/runtime/helpers/esm/initializerDefineProperty.js");
+/* harmony import */ var _home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime/helpers/esm/classCallCheck.js");
+/* harmony import */ var _home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/assertThisInitialized */ "./node_modules/@babel/runtime/helpers/esm/assertThisInitialized.js");
+/* harmony import */ var _home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/inherits */ "./node_modules/@babel/runtime/helpers/esm/inherits.js");
+/* harmony import */ var _home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_createSuper__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/createSuper */ "./node_modules/@babel/runtime/helpers/esm/createSuper.js");
+/* harmony import */ var _home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/defineProperty */ "./node_modules/@babel/runtime/helpers/esm/defineProperty.js");
+/* harmony import */ var _home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_applyDecoratedDescriptor__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/applyDecoratedDescriptor */ "./node_modules/@babel/runtime/helpers/esm/applyDecoratedDescriptor.js");
+/* harmony import */ var _home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_initializerWarningHelper__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/initializerWarningHelper */ "./node_modules/@babel/runtime/helpers/esm/initializerWarningHelper.js");
 /* harmony import */ var core_js_modules_es_array_concat_js__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! core-js/modules/es.array.concat.js */ "./node_modules/core-js/modules/es.array.concat.js");
 /* harmony import */ var core_js_modules_es_array_concat_js__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_array_concat_js__WEBPACK_IMPORTED_MODULE_12__);
 /* harmony import */ var core_js_modules_es_object_keys_js__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! core-js/modules/es.object.keys.js */ "./node_modules/core-js/modules/es.object.keys.js");
@@ -3774,14 +3774,14 @@ var ModelProviderTypeMixin = (_dec = Object(vue_property_decorator__WEBPACK_IMPO
 }), _dec9 = Object(vue_property_decorator__WEBPACK_IMPORTED_MODULE_15__["Prop"])({
   "default": ''
 }), _dec(_class = (_class2 = /*#__PURE__*/function (_Vue) {
-  Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_7__["default"])(ModelProviderTypeMixin, _Vue);
+  Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_7__["default"])(ModelProviderTypeMixin, _Vue);
 
-  var _super = Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_createSuper__WEBPACK_IMPORTED_MODULE_8__["default"])(ModelProviderTypeMixin);
+  var _super = Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_createSuper__WEBPACK_IMPORTED_MODULE_8__["default"])(ModelProviderTypeMixin);
 
   function ModelProviderTypeMixin() {
     var _this;
 
-    Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_5__["default"])(this, ModelProviderTypeMixin);
+    Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_5__["default"])(this, ModelProviderTypeMixin);
 
     for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
       args[_key] = arguments[_key];
@@ -3789,62 +3789,62 @@ var ModelProviderTypeMixin = (_dec = Object(vue_property_decorator__WEBPACK_IMPO
 
     _this = _super.call.apply(_super, [this].concat(args));
 
-    Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_initializerDefineProperty__WEBPACK_IMPORTED_MODULE_4__["default"])(Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_6__["default"])(_this), "wrappedComponent", _descriptor, Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_6__["default"])(_this));
+    Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_initializerDefineProperty__WEBPACK_IMPORTED_MODULE_4__["default"])(Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_6__["default"])(_this), "wrappedComponent", _descriptor, Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_6__["default"])(_this));
 
-    Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_initializerDefineProperty__WEBPACK_IMPORTED_MODULE_4__["default"])(Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_6__["default"])(_this), "cqPath", _descriptor2, Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_6__["default"])(_this));
+    Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_initializerDefineProperty__WEBPACK_IMPORTED_MODULE_4__["default"])(Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_6__["default"])(_this), "cqPath", _descriptor2, Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_6__["default"])(_this));
 
-    Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_initializerDefineProperty__WEBPACK_IMPORTED_MODULE_4__["default"])(Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_6__["default"])(_this), "injectPropsOnInit", _descriptor3, Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_6__["default"])(_this));
+    Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_initializerDefineProperty__WEBPACK_IMPORTED_MODULE_4__["default"])(Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_6__["default"])(_this), "injectPropsOnInit", _descriptor3, Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_6__["default"])(_this));
 
-    Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_initializerDefineProperty__WEBPACK_IMPORTED_MODULE_4__["default"])(Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_6__["default"])(_this), "pagePath", _descriptor4, Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_6__["default"])(_this));
+    Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_initializerDefineProperty__WEBPACK_IMPORTED_MODULE_4__["default"])(Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_6__["default"])(_this), "pagePath", _descriptor4, Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_6__["default"])(_this));
 
-    Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_initializerDefineProperty__WEBPACK_IMPORTED_MODULE_4__["default"])(Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_6__["default"])(_this), "itemPath", _descriptor5, Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_6__["default"])(_this));
+    Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_initializerDefineProperty__WEBPACK_IMPORTED_MODULE_4__["default"])(Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_6__["default"])(_this), "itemPath", _descriptor5, Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_6__["default"])(_this));
 
-    Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_initializerDefineProperty__WEBPACK_IMPORTED_MODULE_4__["default"])(Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_6__["default"])(_this), "cqForceReload", _descriptor6, Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_6__["default"])(_this));
+    Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_initializerDefineProperty__WEBPACK_IMPORTED_MODULE_4__["default"])(Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_6__["default"])(_this), "cqForceReload", _descriptor6, Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_6__["default"])(_this));
 
-    Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_initializerDefineProperty__WEBPACK_IMPORTED_MODULE_4__["default"])(Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_6__["default"])(_this), "containerProps", _descriptor7, Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_6__["default"])(_this));
+    Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_initializerDefineProperty__WEBPACK_IMPORTED_MODULE_4__["default"])(Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_6__["default"])(_this), "containerProps", _descriptor7, Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_6__["default"])(_this));
 
-    Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_initializerDefineProperty__WEBPACK_IMPORTED_MODULE_4__["default"])(Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_6__["default"])(_this), "itemKey", _descriptor8, Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_6__["default"])(_this));
+    Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_initializerDefineProperty__WEBPACK_IMPORTED_MODULE_4__["default"])(Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_6__["default"])(_this), "itemKey", _descriptor8, Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_6__["default"])(_this));
 
     return _this;
   }
 
   return ModelProviderTypeMixin;
-}(vue__WEBPACK_IMPORTED_MODULE_19___default.a), (_descriptor = Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_applyDecoratedDescriptor__WEBPACK_IMPORTED_MODULE_10__["default"])(_class2.prototype, "wrappedComponent", [_dec2], {
+}(vue__WEBPACK_IMPORTED_MODULE_19___default.a), (_descriptor = Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_applyDecoratedDescriptor__WEBPACK_IMPORTED_MODULE_10__["default"])(_class2.prototype, "wrappedComponent", [_dec2], {
   configurable: true,
   enumerable: true,
   writable: true,
   initializer: null
-}), _descriptor2 = Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_applyDecoratedDescriptor__WEBPACK_IMPORTED_MODULE_10__["default"])(_class2.prototype, "cqPath", [_dec3], {
+}), _descriptor2 = Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_applyDecoratedDescriptor__WEBPACK_IMPORTED_MODULE_10__["default"])(_class2.prototype, "cqPath", [_dec3], {
   configurable: true,
   enumerable: true,
   writable: true,
   initializer: null
-}), _descriptor3 = Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_applyDecoratedDescriptor__WEBPACK_IMPORTED_MODULE_10__["default"])(_class2.prototype, "injectPropsOnInit", [_dec4], {
+}), _descriptor3 = Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_applyDecoratedDescriptor__WEBPACK_IMPORTED_MODULE_10__["default"])(_class2.prototype, "injectPropsOnInit", [_dec4], {
   configurable: true,
   enumerable: true,
   writable: true,
   initializer: null
-}), _descriptor4 = Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_applyDecoratedDescriptor__WEBPACK_IMPORTED_MODULE_10__["default"])(_class2.prototype, "pagePath", [_dec5], {
+}), _descriptor4 = Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_applyDecoratedDescriptor__WEBPACK_IMPORTED_MODULE_10__["default"])(_class2.prototype, "pagePath", [_dec5], {
   configurable: true,
   enumerable: true,
   writable: true,
   initializer: null
-}), _descriptor5 = Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_applyDecoratedDescriptor__WEBPACK_IMPORTED_MODULE_10__["default"])(_class2.prototype, "itemPath", [_dec6], {
+}), _descriptor5 = Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_applyDecoratedDescriptor__WEBPACK_IMPORTED_MODULE_10__["default"])(_class2.prototype, "itemPath", [_dec6], {
   configurable: true,
   enumerable: true,
   writable: true,
   initializer: null
-}), _descriptor6 = Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_applyDecoratedDescriptor__WEBPACK_IMPORTED_MODULE_10__["default"])(_class2.prototype, "cqForceReload", [_dec7], {
+}), _descriptor6 = Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_applyDecoratedDescriptor__WEBPACK_IMPORTED_MODULE_10__["default"])(_class2.prototype, "cqForceReload", [_dec7], {
   configurable: true,
   enumerable: true,
   writable: true,
   initializer: null
-}), _descriptor7 = Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_applyDecoratedDescriptor__WEBPACK_IMPORTED_MODULE_10__["default"])(_class2.prototype, "containerProps", [_dec8], {
+}), _descriptor7 = Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_applyDecoratedDescriptor__WEBPACK_IMPORTED_MODULE_10__["default"])(_class2.prototype, "containerProps", [_dec8], {
   configurable: true,
   enumerable: true,
   writable: true,
   initializer: null
-}), _descriptor8 = Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_applyDecoratedDescriptor__WEBPACK_IMPORTED_MODULE_10__["default"])(_class2.prototype, "itemKey", [_dec9], {
+}), _descriptor8 = Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_applyDecoratedDescriptor__WEBPACK_IMPORTED_MODULE_10__["default"])(_class2.prototype, "itemKey", [_dec9], {
   configurable: true,
   enumerable: true,
   writable: true,
@@ -3860,14 +3860,14 @@ var ModelProviderTypeMixin = (_dec = Object(vue_property_decorator__WEBPACK_IMPO
 var ModelProvider = (_dec10 = Object(vue_property_decorator__WEBPACK_IMPORTED_MODULE_15__["Component"])({
   components: {}
 }), _dec11 = Object(vue_property_decorator__WEBPACK_IMPORTED_MODULE_15__["Prop"])(), _dec12 = Object(vue_property_decorator__WEBPACK_IMPORTED_MODULE_15__["Prop"])(), _dec10(_class4 = (_class5 = /*#__PURE__*/function (_Mixins) {
-  Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_7__["default"])(ModelProvider, _Mixins);
+  Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_7__["default"])(ModelProvider, _Mixins);
 
-  var _super2 = Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_createSuper__WEBPACK_IMPORTED_MODULE_8__["default"])(ModelProvider);
+  var _super2 = Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_createSuper__WEBPACK_IMPORTED_MODULE_8__["default"])(ModelProvider);
 
   function ModelProvider() {
     var _this2;
 
-    Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_5__["default"])(this, ModelProvider);
+    Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_5__["default"])(this, ModelProvider);
 
     for (var _len2 = arguments.length, args = new Array(_len2), _key2 = 0; _key2 < _len2; _key2++) {
       args[_key2] = arguments[_key2];
@@ -3875,16 +3875,16 @@ var ModelProvider = (_dec10 = Object(vue_property_decorator__WEBPACK_IMPORTED_MO
 
     _this2 = _super2.call.apply(_super2, [this].concat(args));
 
-    Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_initializerDefineProperty__WEBPACK_IMPORTED_MODULE_4__["default"])(Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_6__["default"])(_this2), "isInEditor", _descriptor9, Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_6__["default"])(_this2));
+    Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_initializerDefineProperty__WEBPACK_IMPORTED_MODULE_4__["default"])(Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_6__["default"])(_this2), "isInEditor", _descriptor9, Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_6__["default"])(_this2));
 
-    Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_initializerDefineProperty__WEBPACK_IMPORTED_MODULE_4__["default"])(Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_6__["default"])(_this2), "aemNoDecoration", _descriptor10, Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_6__["default"])(_this2));
+    Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_initializerDefineProperty__WEBPACK_IMPORTED_MODULE_4__["default"])(Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_6__["default"])(_this2), "aemNoDecoration", _descriptor10, Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_6__["default"])(_this2));
 
-    Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_9__["default"])(Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_6__["default"])(_this2), "state", _this2.$props);
+    Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_9__["default"])(Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_6__["default"])(_this2), "state", _this2.$props);
 
     return _this2;
   }
 
-  Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_3__["default"])(ModelProvider, [{
+  Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_3__["default"])(ModelProvider, [{
     key: "propsToState",
     value: function propsToState(props) {
       // Keep private properties from being passed as state
@@ -3893,7 +3893,7 @@ var ModelProvider = (_dec10 = Object(vue_property_decorator__WEBPACK_IMPORTED_MO
       var wrappedComponent = props.wrappedComponent,
           cqForceReload = props.cqForceReload,
           injectPropsOnInit = props.injectPropsOnInit,
-          state = Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_2__["default"])(props, _excluded);
+          state = Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_2__["default"])(props, _excluded);
 
       return state;
     }
@@ -3903,7 +3903,30 @@ var ModelProvider = (_dec10 = Object(vue_property_decorator__WEBPACK_IMPORTED_MO
       return this.state;
     },
     set: function set(props) {
-      this.state = Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_objectSpread2__WEBPACK_IMPORTED_MODULE_1__["default"])(Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_objectSpread2__WEBPACK_IMPORTED_MODULE_1__["default"])({}, this.state), props);
+      this.state = Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_objectSpread2__WEBPACK_IMPORTED_MODULE_1__["default"])(Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_objectSpread2__WEBPACK_IMPORTED_MODULE_1__["default"])({}, this.state), props);
+    }
+    /**
+     * Update component state/props with given model.
+     * @param data Model to update component with
+     * @returns Whether the state was updated
+     */
+
+  }, {
+    key: "updateState",
+    value: function updateState(data) {
+      var injectPropsOnInit = this.$props.injectPropsOnInit;
+
+      if (data && Object.keys(data).length > 0) {
+        this.childProps = _Utils__WEBPACK_IMPORTED_MODULE_18__["default"].modelToProps(data); // Fire event once component model has been fetched and rendered to enable editing on AEM
+
+        if (injectPropsOnInit && _Utils__WEBPACK_IMPORTED_MODULE_18__["default"].isInEditor()) {
+          _adobe_aem_spa_page_model_manager__WEBPACK_IMPORTED_MODULE_16__["PathUtils"].dispatchGlobalCustomEvent(_Constants__WEBPACK_IMPORTED_MODULE_17__["Constants"].ASYNC_CONTENT_LOADED_EVENT, {});
+        }
+
+        return true;
+      }
+
+      return false;
     }
     /**
      * Update model based on given resource path.
@@ -3927,26 +3950,23 @@ var ModelProvider = (_dec10 = Object(vue_property_decorator__WEBPACK_IMPORTED_MO
 
       if (!path) {
         return;
+      } // Try to update state from ModelStore synchronously so that the model is immediately available for SSR
+
+
+      if (!this.updateState(_adobe_aem_spa_page_model_manager__WEBPACK_IMPORTED_MODULE_16__["ModelManager"].modelStore.getData(path))) {
+        _adobe_aem_spa_page_model_manager__WEBPACK_IMPORTED_MODULE_16__["ModelManager"].getData({
+          path: path,
+          forceReload: this.cqForceReload
+        }).then(function (data) {
+          return _this3.updateState(data);
+        })["catch"](function (error) {
+          console.log(error);
+        });
       }
-
-      _adobe_aem_spa_page_model_manager__WEBPACK_IMPORTED_MODULE_16__["ModelManager"].getData({
-        path: path,
-        forceReload: this.cqForceReload
-      }).then(function (data) {
-        if (data && Object.keys(data).length > 0) {
-          _this3.childProps = _Utils__WEBPACK_IMPORTED_MODULE_18__["default"].modelToProps(data); // Fire event once component model has been fetched and rendered to enable editing on AEM
-
-          if (injectPropsOnInit && _Utils__WEBPACK_IMPORTED_MODULE_18__["default"].isInEditor()) {
-            _adobe_aem_spa_page_model_manager__WEBPACK_IMPORTED_MODULE_16__["PathUtils"].dispatchGlobalCustomEvent(_Constants__WEBPACK_IMPORTED_MODULE_17__["Constants"].ASYNC_CONTENT_LOADED_EVENT, {});
-          }
-        }
-      })["catch"](function (error) {
-        console.log(error);
-      });
     }
   }, {
-    key: "mounted",
-    value: function mounted() {
+    key: "created",
+    value: function created() {
       var _this$$props2 = this.$props,
           pagePath = _this$$props2.pagePath,
           itemPath = _this$$props2.itemPath,
@@ -3995,12 +4015,12 @@ var ModelProvider = (_dec10 = Object(vue_property_decorator__WEBPACK_IMPORTED_MO
   }]);
 
   return ModelProvider;
-}(Object(vue_property_decorator__WEBPACK_IMPORTED_MODULE_15__["Mixins"])(ModelProviderTypeMixin)), (_descriptor9 = Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_applyDecoratedDescriptor__WEBPACK_IMPORTED_MODULE_10__["default"])(_class5.prototype, "isInEditor", [_dec11], {
+}(Object(vue_property_decorator__WEBPACK_IMPORTED_MODULE_15__["Mixins"])(ModelProviderTypeMixin)), (_descriptor9 = Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_applyDecoratedDescriptor__WEBPACK_IMPORTED_MODULE_10__["default"])(_class5.prototype, "isInEditor", [_dec11], {
   configurable: true,
   enumerable: true,
   writable: true,
   initializer: null
-}), _descriptor10 = Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_applyDecoratedDescriptor__WEBPACK_IMPORTED_MODULE_10__["default"])(_class5.prototype, "aemNoDecoration", [_dec12], {
+}), _descriptor10 = Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_applyDecoratedDescriptor__WEBPACK_IMPORTED_MODULE_10__["default"])(_class5.prototype, "aemNoDecoration", [_dec12], {
   configurable: true,
   enumerable: true,
   writable: true,
@@ -4021,8 +4041,8 @@ var withModel = function withModel(WrappedComponent) {
       var forceReload = context.props.cqForceReload || modelConfig.forceReload || false;
       var injectPropsOnInit = context.props.injectPropsOnInit || modelConfig.injectPropsOnInit || true;
       return createElement(ModelProvider, {
-        attrs: Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_objectSpread2__WEBPACK_IMPORTED_MODULE_1__["default"])({}, context.data.attrs),
-        props: Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_objectSpread2__WEBPACK_IMPORTED_MODULE_1__["default"])(Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_objectSpread2__WEBPACK_IMPORTED_MODULE_1__["default"])(Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_objectSpread2__WEBPACK_IMPORTED_MODULE_1__["default"])({}, context.props), context.data), {}, {
+        attrs: Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_objectSpread2__WEBPACK_IMPORTED_MODULE_1__["default"])({}, context.data.attrs),
+        props: Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_objectSpread2__WEBPACK_IMPORTED_MODULE_1__["default"])(Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_objectSpread2__WEBPACK_IMPORTED_MODULE_1__["default"])(Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_objectSpread2__WEBPACK_IMPORTED_MODULE_1__["default"])({}, context.props), context.data), {}, {
           cqForceReload: forceReload,
           injectPropsOnInit: injectPropsOnInit,
           wrappedComponent: WrappedComponent
@@ -4048,15 +4068,15 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Page", function() { return Page; });
 /* harmony import */ var _vue_babel_helper_vue_jsx_merge_props__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @vue/babel-helper-vue-jsx-merge-props */ "./node_modules/@vue/babel-helper-vue-jsx-merge-props/dist/helper.js");
 /* harmony import */ var _vue_babel_helper_vue_jsx_merge_props__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_vue_babel_helper_vue_jsx_merge_props__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/createClass */ "./node_modules/@babel/runtime/helpers/esm/createClass.js");
-/* harmony import */ var C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_initializerDefineProperty__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/initializerDefineProperty */ "./node_modules/@babel/runtime/helpers/esm/initializerDefineProperty.js");
-/* harmony import */ var C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime/helpers/esm/classCallCheck.js");
-/* harmony import */ var C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/assertThisInitialized */ "./node_modules/@babel/runtime/helpers/esm/assertThisInitialized.js");
-/* harmony import */ var C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/inherits */ "./node_modules/@babel/runtime/helpers/esm/inherits.js");
-/* harmony import */ var C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_createSuper__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/createSuper */ "./node_modules/@babel/runtime/helpers/esm/createSuper.js");
-/* harmony import */ var C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/defineProperty */ "./node_modules/@babel/runtime/helpers/esm/defineProperty.js");
-/* harmony import */ var C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_applyDecoratedDescriptor__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/applyDecoratedDescriptor */ "./node_modules/@babel/runtime/helpers/esm/applyDecoratedDescriptor.js");
-/* harmony import */ var C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_initializerWarningHelper__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/initializerWarningHelper */ "./node_modules/@babel/runtime/helpers/esm/initializerWarningHelper.js");
+/* harmony import */ var _home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/createClass */ "./node_modules/@babel/runtime/helpers/esm/createClass.js");
+/* harmony import */ var _home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_initializerDefineProperty__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/initializerDefineProperty */ "./node_modules/@babel/runtime/helpers/esm/initializerDefineProperty.js");
+/* harmony import */ var _home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime/helpers/esm/classCallCheck.js");
+/* harmony import */ var _home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/assertThisInitialized */ "./node_modules/@babel/runtime/helpers/esm/assertThisInitialized.js");
+/* harmony import */ var _home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/inherits */ "./node_modules/@babel/runtime/helpers/esm/inherits.js");
+/* harmony import */ var _home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_createSuper__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/createSuper */ "./node_modules/@babel/runtime/helpers/esm/createSuper.js");
+/* harmony import */ var _home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/defineProperty */ "./node_modules/@babel/runtime/helpers/esm/defineProperty.js");
+/* harmony import */ var _home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_applyDecoratedDescriptor__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/applyDecoratedDescriptor */ "./node_modules/@babel/runtime/helpers/esm/applyDecoratedDescriptor.js");
+/* harmony import */ var _home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_initializerWarningHelper__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/initializerWarningHelper */ "./node_modules/@babel/runtime/helpers/esm/initializerWarningHelper.js");
 /* harmony import */ var core_js_modules_es_array_concat_js__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! core-js/modules/es.array.concat.js */ "./node_modules/core-js/modules/es.array.concat.js");
 /* harmony import */ var core_js_modules_es_array_concat_js__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_array_concat_js__WEBPACK_IMPORTED_MODULE_10__);
 /* harmony import */ var core_js_modules_es_array_map_js__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! core-js/modules/es.array.map.js */ "./node_modules/core-js/modules/es.array.map.js");
@@ -4115,14 +4135,14 @@ var PagePropertiesMixin = (_dec = Object(vue_property_decorator__WEBPACK_IMPORTE
 }), _dec2 = Object(vue_property_decorator__WEBPACK_IMPORTED_MODULE_14__["Prop"])({
   "default": function _default() {}
 }), _dec(_class = (_class2 = /*#__PURE__*/function (_Mixins) {
-  Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_5__["default"])(PagePropertiesMixin, _Mixins);
+  Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_5__["default"])(PagePropertiesMixin, _Mixins);
 
-  var _super = Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_createSuper__WEBPACK_IMPORTED_MODULE_6__["default"])(PagePropertiesMixin);
+  var _super = Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_createSuper__WEBPACK_IMPORTED_MODULE_6__["default"])(PagePropertiesMixin);
 
   function PagePropertiesMixin() {
     var _this;
 
-    Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_3__["default"])(this, PagePropertiesMixin);
+    Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_3__["default"])(this, PagePropertiesMixin);
 
     for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
       args[_key] = arguments[_key];
@@ -4130,13 +4150,13 @@ var PagePropertiesMixin = (_dec = Object(vue_property_decorator__WEBPACK_IMPORTE
 
     _this = _super.call.apply(_super, [this].concat(args));
 
-    Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_initializerDefineProperty__WEBPACK_IMPORTED_MODULE_2__["default"])(Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__["default"])(_this), "cqChildren", _descriptor, Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__["default"])(_this));
+    Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_initializerDefineProperty__WEBPACK_IMPORTED_MODULE_2__["default"])(Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__["default"])(_this), "cqChildren", _descriptor, Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__["default"])(_this));
 
     return _this;
   }
 
   return PagePropertiesMixin;
-}(Object(vue_property_decorator__WEBPACK_IMPORTED_MODULE_14__["Mixins"])(_Container__WEBPACK_IMPORTED_MODULE_18__["ContainerPropertiesMixins"])), (_descriptor = Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_applyDecoratedDescriptor__WEBPACK_IMPORTED_MODULE_8__["default"])(_class2.prototype, "cqChildren", [_dec2], {
+}(Object(vue_property_decorator__WEBPACK_IMPORTED_MODULE_14__["Mixins"])(_Container__WEBPACK_IMPORTED_MODULE_18__["ContainerPropertiesMixins"])), (_descriptor = Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_applyDecoratedDescriptor__WEBPACK_IMPORTED_MODULE_8__["default"])(_class2.prototype, "cqChildren", [_dec2], {
   configurable: true,
   enumerable: true,
   writable: true,
@@ -4145,14 +4165,14 @@ var PagePropertiesMixin = (_dec = Object(vue_property_decorator__WEBPACK_IMPORTE
 var Page = (_dec3 = Object(vue_property_decorator__WEBPACK_IMPORTED_MODULE_14__["Component"])({
   components: {}
 }), _dec3(_class4 = /*#__PURE__*/function (_Mixins2) {
-  Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_5__["default"])(Page, _Mixins2);
+  Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_5__["default"])(Page, _Mixins2);
 
-  var _super2 = Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_createSuper__WEBPACK_IMPORTED_MODULE_6__["default"])(Page);
+  var _super2 = Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_createSuper__WEBPACK_IMPORTED_MODULE_6__["default"])(Page);
 
   function Page() {
     var _this2;
 
-    Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_3__["default"])(this, Page);
+    Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_3__["default"])(this, Page);
 
     for (var _len2 = arguments.length, args = new Array(_len2), _key2 = 0; _key2 < _len2; _key2++) {
       args[_key2] = arguments[_key2];
@@ -4160,14 +4180,14 @@ var Page = (_dec3 = Object(vue_property_decorator__WEBPACK_IMPORTED_MODULE_14__[
 
     _this2 = _super2.call.apply(_super2, [this].concat(args));
 
-    Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_7__["default"])(Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__["default"])(_this2), "state", {
+    Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_7__["default"])(Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__["default"])(_this2), "state", {
       componentMapping: _this2.componentMapping || _ComponentMapping__WEBPACK_IMPORTED_MODULE_17__["ComponentMapping"]
     });
 
     return _this2;
   }
 
-  Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(Page, [{
+  Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(Page, [{
     key: "containerAttrs",
     get: function get() {
       var props = {
@@ -4245,15 +4265,15 @@ var Page = (_dec3 = Object(vue_property_decorator__WEBPACK_IMPORTED_MODULE_14__[
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ResponsiveGridPropertiesMixin", function() { return ResponsiveGridPropertiesMixin; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ResponsiveGrid", function() { return ResponsiveGrid; });
-/* harmony import */ var C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/createClass */ "./node_modules/@babel/runtime/helpers/esm/createClass.js");
-/* harmony import */ var C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_initializerDefineProperty__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/initializerDefineProperty */ "./node_modules/@babel/runtime/helpers/esm/initializerDefineProperty.js");
-/* harmony import */ var C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime/helpers/esm/classCallCheck.js");
-/* harmony import */ var C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/assertThisInitialized */ "./node_modules/@babel/runtime/helpers/esm/assertThisInitialized.js");
-/* harmony import */ var C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/inherits */ "./node_modules/@babel/runtime/helpers/esm/inherits.js");
-/* harmony import */ var C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_createSuper__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/createSuper */ "./node_modules/@babel/runtime/helpers/esm/createSuper.js");
-/* harmony import */ var C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/defineProperty */ "./node_modules/@babel/runtime/helpers/esm/defineProperty.js");
-/* harmony import */ var C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_applyDecoratedDescriptor__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/applyDecoratedDescriptor */ "./node_modules/@babel/runtime/helpers/esm/applyDecoratedDescriptor.js");
-/* harmony import */ var C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_initializerWarningHelper__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/initializerWarningHelper */ "./node_modules/@babel/runtime/helpers/esm/initializerWarningHelper.js");
+/* harmony import */ var _home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/createClass */ "./node_modules/@babel/runtime/helpers/esm/createClass.js");
+/* harmony import */ var _home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_initializerDefineProperty__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/initializerDefineProperty */ "./node_modules/@babel/runtime/helpers/esm/initializerDefineProperty.js");
+/* harmony import */ var _home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime/helpers/esm/classCallCheck.js");
+/* harmony import */ var _home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/assertThisInitialized */ "./node_modules/@babel/runtime/helpers/esm/assertThisInitialized.js");
+/* harmony import */ var _home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/inherits */ "./node_modules/@babel/runtime/helpers/esm/inherits.js");
+/* harmony import */ var _home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_createSuper__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/createSuper */ "./node_modules/@babel/runtime/helpers/esm/createSuper.js");
+/* harmony import */ var _home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/defineProperty */ "./node_modules/@babel/runtime/helpers/esm/defineProperty.js");
+/* harmony import */ var _home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_applyDecoratedDescriptor__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/applyDecoratedDescriptor */ "./node_modules/@babel/runtime/helpers/esm/applyDecoratedDescriptor.js");
+/* harmony import */ var _home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_initializerWarningHelper__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/initializerWarningHelper */ "./node_modules/@babel/runtime/helpers/esm/initializerWarningHelper.js");
 /* harmony import */ var core_js_modules_es_array_concat_js__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! core-js/modules/es.array.concat.js */ "./node_modules/core-js/modules/es.array.concat.js");
 /* harmony import */ var core_js_modules_es_array_concat_js__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_array_concat_js__WEBPACK_IMPORTED_MODULE_9__);
 /* harmony import */ var _ComponentMapping__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../ComponentMapping */ "./src/ComponentMapping.ts");
@@ -4303,14 +4323,14 @@ var ResponsiveGridPropertiesMixin = (_dec = Object(vue_property_decorator__WEBPA
 }), _dec3 = Object(vue_property_decorator__WEBPACK_IMPORTED_MODULE_13__["Prop"])({
   "default": ''
 }), _dec(_class = (_class2 = /*#__PURE__*/function (_Mixins) {
-  Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__["default"])(ResponsiveGridPropertiesMixin, _Mixins);
+  Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__["default"])(ResponsiveGridPropertiesMixin, _Mixins);
 
-  var _super = Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_createSuper__WEBPACK_IMPORTED_MODULE_5__["default"])(ResponsiveGridPropertiesMixin);
+  var _super = Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_createSuper__WEBPACK_IMPORTED_MODULE_5__["default"])(ResponsiveGridPropertiesMixin);
 
   function ResponsiveGridPropertiesMixin() {
     var _this;
 
-    Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_2__["default"])(this, ResponsiveGridPropertiesMixin);
+    Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_2__["default"])(this, ResponsiveGridPropertiesMixin);
 
     for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
       args[_key] = arguments[_key];
@@ -4318,20 +4338,20 @@ var ResponsiveGridPropertiesMixin = (_dec = Object(vue_property_decorator__WEBPA
 
     _this = _super.call.apply(_super, [this].concat(args));
 
-    Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_initializerDefineProperty__WEBPACK_IMPORTED_MODULE_1__["default"])(Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_3__["default"])(_this), "columnClassNames", _descriptor, Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_3__["default"])(_this));
+    Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_initializerDefineProperty__WEBPACK_IMPORTED_MODULE_1__["default"])(Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_3__["default"])(_this), "columnClassNames", _descriptor, Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_3__["default"])(_this));
 
-    Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_initializerDefineProperty__WEBPACK_IMPORTED_MODULE_1__["default"])(Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_3__["default"])(_this), "gridClassNames", _descriptor2, Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_3__["default"])(_this));
+    Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_initializerDefineProperty__WEBPACK_IMPORTED_MODULE_1__["default"])(Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_3__["default"])(_this), "gridClassNames", _descriptor2, Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_3__["default"])(_this));
 
     return _this;
   }
 
   return ResponsiveGridPropertiesMixin;
-}(Object(vue_property_decorator__WEBPACK_IMPORTED_MODULE_13__["Mixins"])(_allowedcomponents_AllowedComponentsContainer__WEBPACK_IMPORTED_MODULE_11__["AllowedComponentsPropertiesMixin"])), (_descriptor = Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_applyDecoratedDescriptor__WEBPACK_IMPORTED_MODULE_7__["default"])(_class2.prototype, "columnClassNames", [_dec2], {
+}(Object(vue_property_decorator__WEBPACK_IMPORTED_MODULE_13__["Mixins"])(_allowedcomponents_AllowedComponentsContainer__WEBPACK_IMPORTED_MODULE_11__["AllowedComponentsPropertiesMixin"])), (_descriptor = Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_applyDecoratedDescriptor__WEBPACK_IMPORTED_MODULE_7__["default"])(_class2.prototype, "columnClassNames", [_dec2], {
   configurable: true,
   enumerable: true,
   writable: true,
   initializer: null
-}), _descriptor2 = Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_applyDecoratedDescriptor__WEBPACK_IMPORTED_MODULE_7__["default"])(_class2.prototype, "gridClassNames", [_dec3], {
+}), _descriptor2 = Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_applyDecoratedDescriptor__WEBPACK_IMPORTED_MODULE_7__["default"])(_class2.prototype, "gridClassNames", [_dec3], {
   configurable: true,
   enumerable: true,
   writable: true,
@@ -4340,17 +4360,17 @@ var ResponsiveGridPropertiesMixin = (_dec = Object(vue_property_decorator__WEBPA
 var ResponsiveGrid = (_dec4 = Object(vue_property_decorator__WEBPACK_IMPORTED_MODULE_13__["Component"])({
   components: {}
 }), _dec4(_class4 = /*#__PURE__*/function (_Mixins2) {
-  Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__["default"])(ResponsiveGrid, _Mixins2);
+  Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__["default"])(ResponsiveGrid, _Mixins2);
 
-  var _super2 = Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_createSuper__WEBPACK_IMPORTED_MODULE_5__["default"])(ResponsiveGrid);
+  var _super2 = Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_createSuper__WEBPACK_IMPORTED_MODULE_5__["default"])(ResponsiveGrid);
 
   function ResponsiveGrid() {
-    Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_2__["default"])(this, ResponsiveGrid);
+    Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_2__["default"])(this, ResponsiveGrid);
 
     return _super2.apply(this, arguments);
   }
 
-  Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_0__["default"])(ResponsiveGrid, [{
+  Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_0__["default"])(ResponsiveGrid, [{
     key: "containerAttrs",
     get: function get() {
       var props = {
@@ -4410,15 +4430,15 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AllowedComponentsContainer", function() { return AllowedComponentsContainer; });
 /* harmony import */ var _vue_babel_helper_vue_jsx_merge_props__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @vue/babel-helper-vue-jsx-merge-props */ "./node_modules/@vue/babel-helper-vue-jsx-merge-props/dist/helper.js");
 /* harmony import */ var _vue_babel_helper_vue_jsx_merge_props__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_vue_babel_helper_vue_jsx_merge_props__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/createClass */ "./node_modules/@babel/runtime/helpers/esm/createClass.js");
-/* harmony import */ var C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_initializerDefineProperty__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/initializerDefineProperty */ "./node_modules/@babel/runtime/helpers/esm/initializerDefineProperty.js");
-/* harmony import */ var C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime/helpers/esm/classCallCheck.js");
-/* harmony import */ var C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/assertThisInitialized */ "./node_modules/@babel/runtime/helpers/esm/assertThisInitialized.js");
-/* harmony import */ var C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/inherits */ "./node_modules/@babel/runtime/helpers/esm/inherits.js");
-/* harmony import */ var C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_createSuper__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/createSuper */ "./node_modules/@babel/runtime/helpers/esm/createSuper.js");
-/* harmony import */ var C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/defineProperty */ "./node_modules/@babel/runtime/helpers/esm/defineProperty.js");
-/* harmony import */ var C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_applyDecoratedDescriptor__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/applyDecoratedDescriptor */ "./node_modules/@babel/runtime/helpers/esm/applyDecoratedDescriptor.js");
-/* harmony import */ var C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_initializerWarningHelper__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/initializerWarningHelper */ "./node_modules/@babel/runtime/helpers/esm/initializerWarningHelper.js");
+/* harmony import */ var _home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/createClass */ "./node_modules/@babel/runtime/helpers/esm/createClass.js");
+/* harmony import */ var _home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_initializerDefineProperty__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/initializerDefineProperty */ "./node_modules/@babel/runtime/helpers/esm/initializerDefineProperty.js");
+/* harmony import */ var _home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime/helpers/esm/classCallCheck.js");
+/* harmony import */ var _home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/assertThisInitialized */ "./node_modules/@babel/runtime/helpers/esm/assertThisInitialized.js");
+/* harmony import */ var _home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/inherits */ "./node_modules/@babel/runtime/helpers/esm/inherits.js");
+/* harmony import */ var _home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_createSuper__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/createSuper */ "./node_modules/@babel/runtime/helpers/esm/createSuper.js");
+/* harmony import */ var _home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/defineProperty */ "./node_modules/@babel/runtime/helpers/esm/defineProperty.js");
+/* harmony import */ var _home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_applyDecoratedDescriptor__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/applyDecoratedDescriptor */ "./node_modules/@babel/runtime/helpers/esm/applyDecoratedDescriptor.js");
+/* harmony import */ var _home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_initializerWarningHelper__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/initializerWarningHelper */ "./node_modules/@babel/runtime/helpers/esm/initializerWarningHelper.js");
 /* harmony import */ var core_js_modules_es_array_concat_js__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! core-js/modules/es.array.concat.js */ "./node_modules/core-js/modules/es.array.concat.js");
 /* harmony import */ var core_js_modules_es_array_concat_js__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_array_concat_js__WEBPACK_IMPORTED_MODULE_10__);
 /* harmony import */ var vue_property_decorator__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! vue-property-decorator */ "vue-property-decorator");
@@ -4471,14 +4491,14 @@ var AllowedComponentsPropertiesMixin = (_dec = Object(vue_property_decorator__WE
 }), _dec4 = Object(vue_property_decorator__WEBPACK_IMPORTED_MODULE_11__["Prop"])({
   "default": ''
 }), _dec(_class = (_class2 = /*#__PURE__*/function (_Vue) {
-  Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_5__["default"])(AllowedComponentsPropertiesMixin, _Vue);
+  Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_5__["default"])(AllowedComponentsPropertiesMixin, _Vue);
 
-  var _super = Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_createSuper__WEBPACK_IMPORTED_MODULE_6__["default"])(AllowedComponentsPropertiesMixin);
+  var _super = Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_createSuper__WEBPACK_IMPORTED_MODULE_6__["default"])(AllowedComponentsPropertiesMixin);
 
   function AllowedComponentsPropertiesMixin() {
     var _this;
 
-    Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_3__["default"])(this, AllowedComponentsPropertiesMixin);
+    Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_3__["default"])(this, AllowedComponentsPropertiesMixin);
 
     for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
       args[_key] = arguments[_key];
@@ -4486,27 +4506,27 @@ var AllowedComponentsPropertiesMixin = (_dec = Object(vue_property_decorator__WE
 
     _this = _super.call.apply(_super, [this].concat(args));
 
-    Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_initializerDefineProperty__WEBPACK_IMPORTED_MODULE_2__["default"])(Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__["default"])(_this), "_allowedComponentPlaceholderListEmptyLabel", _descriptor, Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__["default"])(_this));
+    Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_initializerDefineProperty__WEBPACK_IMPORTED_MODULE_2__["default"])(Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__["default"])(_this), "_allowedComponentPlaceholderListEmptyLabel", _descriptor, Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__["default"])(_this));
 
-    Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_initializerDefineProperty__WEBPACK_IMPORTED_MODULE_2__["default"])(Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__["default"])(_this), "allowedComponents", _descriptor2, Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__["default"])(_this));
+    Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_initializerDefineProperty__WEBPACK_IMPORTED_MODULE_2__["default"])(Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__["default"])(_this), "allowedComponents", _descriptor2, Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__["default"])(_this));
 
-    Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_initializerDefineProperty__WEBPACK_IMPORTED_MODULE_2__["default"])(Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__["default"])(_this), "title", _descriptor3, Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__["default"])(_this));
+    Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_initializerDefineProperty__WEBPACK_IMPORTED_MODULE_2__["default"])(Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__["default"])(_this), "title", _descriptor3, Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__["default"])(_this));
 
     return _this;
   }
 
   return AllowedComponentsPropertiesMixin;
-}(vue_property_decorator__WEBPACK_IMPORTED_MODULE_11__["Vue"]), (_descriptor = Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_applyDecoratedDescriptor__WEBPACK_IMPORTED_MODULE_8__["default"])(_class2.prototype, "_allowedComponentPlaceholderListEmptyLabel", [_dec2], {
+}(vue_property_decorator__WEBPACK_IMPORTED_MODULE_11__["Vue"]), (_descriptor = Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_applyDecoratedDescriptor__WEBPACK_IMPORTED_MODULE_8__["default"])(_class2.prototype, "_allowedComponentPlaceholderListEmptyLabel", [_dec2], {
   configurable: true,
   enumerable: true,
   writable: true,
   initializer: null
-}), _descriptor2 = Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_applyDecoratedDescriptor__WEBPACK_IMPORTED_MODULE_8__["default"])(_class2.prototype, "allowedComponents", [_dec3], {
+}), _descriptor2 = Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_applyDecoratedDescriptor__WEBPACK_IMPORTED_MODULE_8__["default"])(_class2.prototype, "allowedComponents", [_dec3], {
   configurable: true,
   enumerable: true,
   writable: true,
   initializer: null
-}), _descriptor3 = Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_applyDecoratedDescriptor__WEBPACK_IMPORTED_MODULE_8__["default"])(_class2.prototype, "title", [_dec4], {
+}), _descriptor3 = Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_applyDecoratedDescriptor__WEBPACK_IMPORTED_MODULE_8__["default"])(_class2.prototype, "title", [_dec4], {
   configurable: true,
   enumerable: true,
   writable: true,
@@ -4519,17 +4539,17 @@ var AllowedComponentsPropertiesMixin = (_dec = Object(vue_property_decorator__WE
 var AllowedComponentsContainer = (_dec5 = Object(vue_property_decorator__WEBPACK_IMPORTED_MODULE_11__["Component"])({
   components: {}
 }), _dec5(_class4 = /*#__PURE__*/function (_Mixins) {
-  Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_5__["default"])(AllowedComponentsContainer, _Mixins);
+  Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_5__["default"])(AllowedComponentsContainer, _Mixins);
 
-  var _super2 = Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_createSuper__WEBPACK_IMPORTED_MODULE_6__["default"])(AllowedComponentsContainer);
+  var _super2 = Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_createSuper__WEBPACK_IMPORTED_MODULE_6__["default"])(AllowedComponentsContainer);
 
   function AllowedComponentsContainer() {
-    Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_3__["default"])(this, AllowedComponentsContainer);
+    Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_3__["default"])(this, AllowedComponentsContainer);
 
     return _super2.apply(this, arguments);
   }
 
-  Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(AllowedComponentsContainer, [{
+  Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(AllowedComponentsContainer, [{
     key: "render",
     value: function render(createElement) {
       var h = arguments[0];
@@ -4573,15 +4593,15 @@ var AllowedComponentsContainer = (_dec5 = Object(vue_property_decorator__WEBPACK
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AllowedComponentPlaceholder", function() { return AllowedComponentPlaceholder; });
-/* harmony import */ var C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_initializerDefineProperty__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/initializerDefineProperty */ "./node_modules/@babel/runtime/helpers/esm/initializerDefineProperty.js");
-/* harmony import */ var C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime/helpers/esm/classCallCheck.js");
-/* harmony import */ var C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/createClass */ "./node_modules/@babel/runtime/helpers/esm/createClass.js");
-/* harmony import */ var C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/assertThisInitialized */ "./node_modules/@babel/runtime/helpers/esm/assertThisInitialized.js");
-/* harmony import */ var C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/inherits */ "./node_modules/@babel/runtime/helpers/esm/inherits.js");
-/* harmony import */ var C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_createSuper__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/createSuper */ "./node_modules/@babel/runtime/helpers/esm/createSuper.js");
-/* harmony import */ var C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/defineProperty */ "./node_modules/@babel/runtime/helpers/esm/defineProperty.js");
-/* harmony import */ var C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_applyDecoratedDescriptor__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/applyDecoratedDescriptor */ "./node_modules/@babel/runtime/helpers/esm/applyDecoratedDescriptor.js");
-/* harmony import */ var C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_initializerWarningHelper__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/initializerWarningHelper */ "./node_modules/@babel/runtime/helpers/esm/initializerWarningHelper.js");
+/* harmony import */ var _home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_initializerDefineProperty__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/initializerDefineProperty */ "./node_modules/@babel/runtime/helpers/esm/initializerDefineProperty.js");
+/* harmony import */ var _home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime/helpers/esm/classCallCheck.js");
+/* harmony import */ var _home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/createClass */ "./node_modules/@babel/runtime/helpers/esm/createClass.js");
+/* harmony import */ var _home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/assertThisInitialized */ "./node_modules/@babel/runtime/helpers/esm/assertThisInitialized.js");
+/* harmony import */ var _home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/inherits */ "./node_modules/@babel/runtime/helpers/esm/inherits.js");
+/* harmony import */ var _home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_createSuper__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/createSuper */ "./node_modules/@babel/runtime/helpers/esm/createSuper.js");
+/* harmony import */ var _home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/defineProperty */ "./node_modules/@babel/runtime/helpers/esm/defineProperty.js");
+/* harmony import */ var _home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_applyDecoratedDescriptor__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/applyDecoratedDescriptor */ "./node_modules/@babel/runtime/helpers/esm/applyDecoratedDescriptor.js");
+/* harmony import */ var _home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_initializerWarningHelper__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/initializerWarningHelper */ "./node_modules/@babel/runtime/helpers/esm/initializerWarningHelper.js");
 /* harmony import */ var core_js_modules_es_array_concat_js__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! core-js/modules/es.array.concat.js */ "./node_modules/core-js/modules/es.array.concat.js");
 /* harmony import */ var core_js_modules_es_array_concat_js__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_array_concat_js__WEBPACK_IMPORTED_MODULE_9__);
 /* harmony import */ var vue_property_decorator__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! vue-property-decorator */ "vue-property-decorator");
@@ -4632,14 +4652,14 @@ var AllowedComponentPlaceholder = (_dec = Object(vue_property_decorator__WEBPACK
 }), _dec3 = Object(vue_property_decorator__WEBPACK_IMPORTED_MODULE_10__["Prop"])({
   "default": ''
 }), _dec(_class = (_class2 = /*#__PURE__*/function (_Vue) {
-  Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__["default"])(AllowedComponentPlaceholder, _Vue);
+  Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__["default"])(AllowedComponentPlaceholder, _Vue);
 
-  var _super = Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_createSuper__WEBPACK_IMPORTED_MODULE_5__["default"])(AllowedComponentPlaceholder);
+  var _super = Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_createSuper__WEBPACK_IMPORTED_MODULE_5__["default"])(AllowedComponentPlaceholder);
 
   function AllowedComponentPlaceholder() {
     var _this;
 
-    Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_1__["default"])(this, AllowedComponentPlaceholder);
+    Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_1__["default"])(this, AllowedComponentPlaceholder);
 
     for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
       args[_key] = arguments[_key];
@@ -4647,14 +4667,14 @@ var AllowedComponentPlaceholder = (_dec = Object(vue_property_decorator__WEBPACK
 
     _this = _super.call.apply(_super, [this].concat(args));
 
-    Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_initializerDefineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_3__["default"])(_this), "emptyLabel", _descriptor, Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_3__["default"])(_this));
+    Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_initializerDefineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_3__["default"])(_this), "emptyLabel", _descriptor, Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_3__["default"])(_this));
 
-    Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_initializerDefineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_3__["default"])(_this), "path", _descriptor2, Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_3__["default"])(_this));
+    Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_initializerDefineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_3__["default"])(_this), "path", _descriptor2, Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_3__["default"])(_this));
 
     return _this;
   }
 
-  Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_2__["default"])(AllowedComponentPlaceholder, [{
+  Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_2__["default"])(AllowedComponentPlaceholder, [{
     key: "render",
     value: function render(createElement) {
       var h = arguments[0];
@@ -4679,12 +4699,12 @@ var AllowedComponentPlaceholder = (_dec = Object(vue_property_decorator__WEBPACK
   }]);
 
   return AllowedComponentPlaceholder;
-}(vue_property_decorator__WEBPACK_IMPORTED_MODULE_10__["Vue"]), (_descriptor = Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_applyDecoratedDescriptor__WEBPACK_IMPORTED_MODULE_7__["default"])(_class2.prototype, "emptyLabel", [_dec2], {
+}(vue_property_decorator__WEBPACK_IMPORTED_MODULE_10__["Vue"]), (_descriptor = Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_applyDecoratedDescriptor__WEBPACK_IMPORTED_MODULE_7__["default"])(_class2.prototype, "emptyLabel", [_dec2], {
   configurable: true,
   enumerable: true,
   writable: true,
   initializer: null
-}), _descriptor2 = Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_applyDecoratedDescriptor__WEBPACK_IMPORTED_MODULE_7__["default"])(_class2.prototype, "path", [_dec3], {
+}), _descriptor2 = Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_applyDecoratedDescriptor__WEBPACK_IMPORTED_MODULE_7__["default"])(_class2.prototype, "path", [_dec3], {
   configurable: true,
   enumerable: true,
   writable: true,
@@ -4703,15 +4723,15 @@ var AllowedComponentPlaceholder = (_dec = Object(vue_property_decorator__WEBPACK
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AllowedComponentPlaceholderList", function() { return AllowedComponentPlaceholderList; });
-/* harmony import */ var C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_initializerDefineProperty__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/initializerDefineProperty */ "./node_modules/@babel/runtime/helpers/esm/initializerDefineProperty.js");
-/* harmony import */ var C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime/helpers/esm/classCallCheck.js");
-/* harmony import */ var C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/createClass */ "./node_modules/@babel/runtime/helpers/esm/createClass.js");
-/* harmony import */ var C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/assertThisInitialized */ "./node_modules/@babel/runtime/helpers/esm/assertThisInitialized.js");
-/* harmony import */ var C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/inherits */ "./node_modules/@babel/runtime/helpers/esm/inherits.js");
-/* harmony import */ var C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_createSuper__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/createSuper */ "./node_modules/@babel/runtime/helpers/esm/createSuper.js");
-/* harmony import */ var C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/defineProperty */ "./node_modules/@babel/runtime/helpers/esm/defineProperty.js");
-/* harmony import */ var C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_applyDecoratedDescriptor__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/applyDecoratedDescriptor */ "./node_modules/@babel/runtime/helpers/esm/applyDecoratedDescriptor.js");
-/* harmony import */ var C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_initializerWarningHelper__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/initializerWarningHelper */ "./node_modules/@babel/runtime/helpers/esm/initializerWarningHelper.js");
+/* harmony import */ var _home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_initializerDefineProperty__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/initializerDefineProperty */ "./node_modules/@babel/runtime/helpers/esm/initializerDefineProperty.js");
+/* harmony import */ var _home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime/helpers/esm/classCallCheck.js");
+/* harmony import */ var _home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/createClass */ "./node_modules/@babel/runtime/helpers/esm/createClass.js");
+/* harmony import */ var _home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/assertThisInitialized */ "./node_modules/@babel/runtime/helpers/esm/assertThisInitialized.js");
+/* harmony import */ var _home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/inherits */ "./node_modules/@babel/runtime/helpers/esm/inherits.js");
+/* harmony import */ var _home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_createSuper__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/createSuper */ "./node_modules/@babel/runtime/helpers/esm/createSuper.js");
+/* harmony import */ var _home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/defineProperty */ "./node_modules/@babel/runtime/helpers/esm/defineProperty.js");
+/* harmony import */ var _home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_applyDecoratedDescriptor__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/applyDecoratedDescriptor */ "./node_modules/@babel/runtime/helpers/esm/applyDecoratedDescriptor.js");
+/* harmony import */ var _home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_initializerWarningHelper__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/initializerWarningHelper */ "./node_modules/@babel/runtime/helpers/esm/initializerWarningHelper.js");
 /* harmony import */ var core_js_modules_es_array_concat_js__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! core-js/modules/es.array.concat.js */ "./node_modules/core-js/modules/es.array.concat.js");
 /* harmony import */ var core_js_modules_es_array_concat_js__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_array_concat_js__WEBPACK_IMPORTED_MODULE_9__);
 /* harmony import */ var core_js_modules_es_array_map_js__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! core-js/modules/es.array.map.js */ "./node_modules/core-js/modules/es.array.map.js");
@@ -4780,14 +4800,14 @@ var AllowedComponentPlaceholderList = (_dec = Object(vue_property_decorator__WEB
 }), _dec6 = Object(vue_property_decorator__WEBPACK_IMPORTED_MODULE_11__["Prop"])({
   "default": ''
 }), _dec(_class = (_class2 = /*#__PURE__*/function (_Vue) {
-  Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__["default"])(AllowedComponentPlaceholderList, _Vue);
+  Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__["default"])(AllowedComponentPlaceholderList, _Vue);
 
-  var _super = Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_createSuper__WEBPACK_IMPORTED_MODULE_5__["default"])(AllowedComponentPlaceholderList);
+  var _super = Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_createSuper__WEBPACK_IMPORTED_MODULE_5__["default"])(AllowedComponentPlaceholderList);
 
   function AllowedComponentPlaceholderList() {
     var _this;
 
-    Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_1__["default"])(this, AllowedComponentPlaceholderList);
+    Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_1__["default"])(this, AllowedComponentPlaceholderList);
 
     for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
       args[_key] = arguments[_key];
@@ -4795,20 +4815,20 @@ var AllowedComponentPlaceholderList = (_dec = Object(vue_property_decorator__WEB
 
     _this = _super.call.apply(_super, [this].concat(args));
 
-    Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_initializerDefineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_3__["default"])(_this), "emptyLabel", _descriptor, Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_3__["default"])(_this));
+    Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_initializerDefineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_3__["default"])(_this), "emptyLabel", _descriptor, Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_3__["default"])(_this));
 
-    Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_initializerDefineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_3__["default"])(_this), "placeholderProps", _descriptor2, Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_3__["default"])(_this));
+    Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_initializerDefineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_3__["default"])(_this), "placeholderProps", _descriptor2, Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_3__["default"])(_this));
 
-    Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_initializerDefineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_3__["default"])(_this), "components", _descriptor3, Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_3__["default"])(_this));
+    Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_initializerDefineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_3__["default"])(_this), "components", _descriptor3, Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_3__["default"])(_this));
 
-    Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_initializerDefineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_3__["default"])(_this), "title", _descriptor4, Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_3__["default"])(_this));
+    Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_initializerDefineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_3__["default"])(_this), "title", _descriptor4, Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_3__["default"])(_this));
 
-    Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_initializerDefineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_3__["default"])(_this), "cqPath", _descriptor5, Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_3__["default"])(_this));
+    Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_initializerDefineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_3__["default"])(_this), "cqPath", _descriptor5, Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_3__["default"])(_this));
 
     return _this;
   }
 
-  Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_2__["default"])(AllowedComponentPlaceholderList, [{
+  Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_2__["default"])(AllowedComponentPlaceholderList, [{
     key: "render",
     value: function render(createElement) {
       var h = arguments[0];
@@ -4842,27 +4862,27 @@ var AllowedComponentPlaceholderList = (_dec = Object(vue_property_decorator__WEB
   }]);
 
   return AllowedComponentPlaceholderList;
-}(vue_property_decorator__WEBPACK_IMPORTED_MODULE_11__["Vue"]), (_descriptor = Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_applyDecoratedDescriptor__WEBPACK_IMPORTED_MODULE_7__["default"])(_class2.prototype, "emptyLabel", [_dec2], {
+}(vue_property_decorator__WEBPACK_IMPORTED_MODULE_11__["Vue"]), (_descriptor = Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_applyDecoratedDescriptor__WEBPACK_IMPORTED_MODULE_7__["default"])(_class2.prototype, "emptyLabel", [_dec2], {
   configurable: true,
   enumerable: true,
   writable: true,
   initializer: null
-}), _descriptor2 = Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_applyDecoratedDescriptor__WEBPACK_IMPORTED_MODULE_7__["default"])(_class2.prototype, "placeholderProps", [_dec3], {
+}), _descriptor2 = Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_applyDecoratedDescriptor__WEBPACK_IMPORTED_MODULE_7__["default"])(_class2.prototype, "placeholderProps", [_dec3], {
   configurable: true,
   enumerable: true,
   writable: true,
   initializer: null
-}), _descriptor3 = Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_applyDecoratedDescriptor__WEBPACK_IMPORTED_MODULE_7__["default"])(_class2.prototype, "components", [_dec4], {
+}), _descriptor3 = Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_applyDecoratedDescriptor__WEBPACK_IMPORTED_MODULE_7__["default"])(_class2.prototype, "components", [_dec4], {
   configurable: true,
   enumerable: true,
   writable: true,
   initializer: null
-}), _descriptor4 = Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_applyDecoratedDescriptor__WEBPACK_IMPORTED_MODULE_7__["default"])(_class2.prototype, "title", [_dec5], {
+}), _descriptor4 = Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_applyDecoratedDescriptor__WEBPACK_IMPORTED_MODULE_7__["default"])(_class2.prototype, "title", [_dec5], {
   configurable: true,
   enumerable: true,
   writable: true,
   initializer: null
-}), _descriptor5 = Object(C_Develop_aldi_aci_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_applyDecoratedDescriptor__WEBPACK_IMPORTED_MODULE_7__["default"])(_class2.prototype, "cqPath", [_dec6], {
+}), _descriptor5 = Object(_home_mwehner_develop_aem_vue_editable_components_node_modules_babel_runtime_helpers_esm_applyDecoratedDescriptor__WEBPACK_IMPORTED_MODULE_7__["default"])(_class2.prototype, "cqPath", [_dec6], {
   configurable: true,
   enumerable: true,
   writable: true,

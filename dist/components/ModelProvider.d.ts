@@ -1,4 +1,5 @@
 import 'reflect-metadata';
+import { Model } from '@adobe/aem-spa-page-model-manager';
 import Vue, { VueConstructor } from 'vue';
 /**
  * Configuration object of the withModel function.
@@ -36,11 +37,17 @@ export declare class ModelProvider extends ModelProvider_base {
     get childProps(): any;
     set childProps(props: any);
     /**
+     * Update component state/props with given model.
+     * @param data Model to update component with
+     * @returns Whether the state was updated
+     */
+    updateState(data: Model | undefined): boolean;
+    /**
      * Update model based on given resource path.
      * @param cqPath resource path
      */
     updateData(cqPath?: string): void;
-    mounted(): void;
+    created(): void;
     destroyed(): void;
     /**
      *  Computed getter used to keep track of changes with the CSS classes.
